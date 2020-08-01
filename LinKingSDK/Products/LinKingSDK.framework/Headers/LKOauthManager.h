@@ -1,0 +1,37 @@
+//
+//  LKOauthManager.h
+//  LinKingSDK
+//
+//  Created by leoan on 2020/7/16.
+//  Copyright © 2020 dml1630@163.com. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
+@class LKUser;
+@protocol LKOauthManagerDelegate <NSObject>
+
+@end
+
+@interface LKOauthManager : NSObject
++ (instancetype)instance;
+@property (nonatomic, strong) UIViewController *viewController;
+@property (nonatomic, weak) id <LKOauthManagerDelegate>delegate;
+@property (nonatomic,copy)void(^bindingAccountCompleteCallBack)(LKUser *user,NSError *error);
+/// Dashboard方式登录
+/// @param viewController 根控制器
+/// @param complete 完成登录回调
+- (void)loginWithDashboardRootViewController:(UIViewController *)viewController complete:(void(^)(LKUser *user,NSError *error))complete;
+/// API方式登录
+/// @param viewController 根控制器
+/// @param complete 完成登录回调
+- (void)loginApiWithRootViewController:(UIViewController *_Nullable)viewController complete:(void(^)(LKUser *user,NSError *error))complete;
+/// 隐藏仪表盘
+- (void)hiddenFloatViewDashboard;
+/// 退出登录
+- (void)logOutSDK;
+
+@end
+
+NS_ASSUME_NONNULL_END

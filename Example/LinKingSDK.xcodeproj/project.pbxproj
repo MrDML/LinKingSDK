@@ -1,0 +1,1103 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0716BC7424D41393008C2147 /* green_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0716BC7124D41393008C2147 /* green_bg@2x.png */; };
+		0716BC7524D41393008C2147 /* green_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0716BC7224D41393008C2147 /* green_bg@3x.png */; };
+		0716BC7624D41393008C2147 /* green_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0716BC7324D41393008C2147 /* green_bg.png */; };
+		072D037924C2E19100382454 /* pay-fail.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D031924C2E19100382454 /* pay-fail.png */; };
+		072D037A24C2E19100382454 /* button-two.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D031A24C2E19100382454 /* button-two.png */; };
+		072D037B24C2E19100382454 /* button-two@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D031B24C2E19100382454 /* button-two@2x.png */; };
+		072D037C24C2E19100382454 /* id-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D031C24C2E19100382454 /* id-bg@2x.png */; };
+		072D037D24C2E19100382454 /* header-black.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D031D24C2E19100382454 /* header-black.png */; };
+		072D037E24C2E19100382454 /* close-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D031E24C2E19100382454 /* close-white.png */; };
+		072D037F24C2E19100382454 /* id-bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D031F24C2E19100382454 /* id-bg@3x.png */; };
+		072D038024C2E19100382454 /* real-name-one.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D032024C2E19100382454 /* real-name-one.png */; };
+		072D038124C2E19100382454 /* button-two@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D032124C2E19100382454 /* button-two@3x.png */; };
+		072D038224C2E19100382454 /* order.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D032224C2E19100382454 /* order.png */; };
+		072D038324C2E19100382454 /* wx.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D032324C2E19100382454 /* wx.png */; };
+		072D038424C2E19100382454 /* dot.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D032424C2E19100382454 /* dot.png */; };
+		072D038524C2E19100382454 /* button-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D032524C2E19100382454 /* button-03.png */; };
+		072D038624C2E19100382454 /* divider.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D032624C2E19100382454 /* divider.png */; };
+		072D038724C2E19100382454 /* button-one@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D032724C2E19100382454 /* button-one@2x.png */; };
+		072D038824C2E19100382454 /* button-04@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D032824C2E19100382454 /* button-04@2x.png */; };
+		072D038924C2E19100382454 /* frame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D032924C2E19100382454 /* frame@2x.png */; };
+		072D038A24C2E19100382454 /* loginbutton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D032A24C2E19100382454 /* loginbutton@2x.png */; };
+		072D038B24C2E19100382454 /* wx@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D032B24C2E19100382454 /* wx@2x.png */; };
+		072D038C24C2E19100382454 /* bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D032C24C2E19100382454 /* bottom.png */; };
+		072D038D24C2E19100382454 /* weixin@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D032D24C2E19100382454 /* weixin@3x.png */; };
+		072D038E24C2E19100382454 /* default-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D032E24C2E19100382454 /* default-icon@2x.png */; };
+		072D038F24C2E19100382454 /* right-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D032F24C2E19100382454 /* right-arrow@2x.png */; };
+		072D039024C2E19100382454 /* ios@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D033024C2E19100382454 /* ios@3x.png */; };
+		072D039124C2E19100382454 /* account-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D033124C2E19100382454 /* account-bg.png */; };
+		072D039224C2E19100382454 /* pay-success.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D033224C2E19100382454 /* pay-success.png */; };
+		072D039324C2E19100382454 /* ios@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D033324C2E19100382454 /* ios@2x.png */; };
+		072D039424C2E19100382454 /* button-05.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D033424C2E19100382454 /* button-05.png */; };
+		072D039524C2E19100382454 /* right-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D033524C2E19100382454 /* right-arrow.png */; };
+		072D039624C2E19100382454 /* right-arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D033624C2E19100382454 /* right-arrow@3x.png */; };
+		072D039724C2E19100382454 /* default-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D033724C2E19100382454 /* default-icon@3x.png */; };
+		072D039824C2E19100382454 /* weixin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D033824C2E19100382454 /* weixin@2x.png */; };
+		072D039924C2E19100382454 /* wx@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D033924C2E19100382454 /* wx@3x.png */; };
+		072D039A24C2E19100382454 /* button-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D033A24C2E19100382454 /* button-04.png */; };
+		072D039B24C2E19100382454 /* loginbutton@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D033B24C2E19100382454 /* loginbutton@3x.png */; };
+		072D039C24C2E19100382454 /* button-04@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D033C24C2E19100382454 /* button-04@3x.png */; };
+		072D039D24C2E19100382454 /* frame@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D033D24C2E19100382454 /* frame@3x.png */; };
+		072D039E24C2E19100382454 /* button-one@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D033E24C2E19100382454 /* button-one@3x.png */; };
+		072D039F24C2E19100382454 /* ali.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D033F24C2E19100382454 /* ali.png */; };
+		072D03A024C2E19100382454 /* id-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D034024C2E19100382454 /* id-bg.png */; };
+		072D03A124C2E19100382454 /* weixin.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D034124C2E19100382454 /* weixin.png */; };
+		072D03A224C2E19100382454 /* default-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D034224C2E19100382454 /* default-icon.png */; };
+		072D03A324C2E19100382454 /* checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D034324C2E19100382454 /* checkmark.png */; };
+		072D03A424C2E19100382454 /* order@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D034424C2E19100382454 /* order@2x.png */; };
+		072D03A524C2E19100382454 /* header-black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D034524C2E19100382454 /* header-black@2x.png */; };
+		072D03A624C2E19100382454 /* button-03@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D034624C2E19100382454 /* button-03@2x.png */; };
+		072D03A724C2E19100382454 /* ali@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D034724C2E19100382454 /* ali@3x.png */; };
+		072D03A824C2E19100382454 /* close-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D034824C2E19100382454 /* close-white@2x.png */; };
+		072D03A924C2E19100382454 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D034924C2E19100382454 /* header.png */; };
+		072D03AA24C2E19100382454 /* binding@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D034A24C2E19100382454 /* binding@3x.png */; };
+		072D03AB24C2E19100382454 /* weixin-white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D034B24C2E19100382454 /* weixin-white@2x.png */; };
+		072D03AC24C2E19100382454 /* header@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D034C24C2E19100382454 /* header@2x.png */; };
+		072D03AD24C2E19100382454 /* quick-login@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D034D24C2E19100382454 /* quick-login@2x.png */; };
+		072D03AE24C2E19100382454 /* quick-login@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D034E24C2E19100382454 /* quick-login@3x.png */; };
+		072D03AF24C2E19100382454 /* header@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D034F24C2E19100382454 /* header@3x.png */; };
+		072D03B024C2E19100382454 /* weixin-white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D035024C2E19100382454 /* weixin-white@3x.png */; };
+		072D03B124C2E19100382454 /* binding@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D035124C2E19100382454 /* binding@2x.png */; };
+		072D03B224C2E19100382454 /* close-white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D035224C2E19100382454 /* close-white@3x.png */; };
+		072D03B324C2E19100382454 /* quick-login.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D035324C2E19100382454 /* quick-login.png */; };
+		072D03B424C2E19100382454 /* button-03@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D035424C2E19100382454 /* button-03@3x.png */; };
+		072D03B524C2E19100382454 /* ali@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D035524C2E19100382454 /* ali@2x.png */; };
+		072D03B624C2E19100382454 /* loginbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D035624C2E19100382454 /* loginbutton.png */; };
+		072D03B724C2E19100382454 /* header-black@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D035724C2E19100382454 /* header-black@3x.png */; };
+		072D03B824C2E19100382454 /* real-name.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D035824C2E19100382454 /* real-name.png */; };
+		072D03B924C2E19100382454 /* ios.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D035924C2E19100382454 /* ios.png */; };
+		072D03BA24C2E19100382454 /* order@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D035A24C2E19100382454 /* order@3x.png */; };
+		072D03BB24C2E19100382454 /* frame.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D035B24C2E19100382454 /* frame.png */; };
+		072D03BC24C2E19100382454 /* account-bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D035C24C2E19100382454 /* account-bg@3x.png */; };
+		072D03BD24C2E19100382454 /* pay-success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D035D24C2E19100382454 /* pay-success@2x.png */; };
+		072D03BE24C2E19100382454 /* checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D035E24C2E19100382454 /* checkmark@2x.png */; };
+		072D03BF24C2E19100382454 /* message@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D035F24C2E19100382454 /* message@3x.png */; };
+		072D03C024C2E19100382454 /* button-05@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D036024C2E19100382454 /* button-05@2x.png */; };
+		072D03C124C2E19100382454 /* button-one.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D036124C2E19100382454 /* button-one.png */; };
+		072D03C224C2E19100382454 /* pay-fail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D036224C2E19100382454 /* pay-fail@2x.png */; };
+		072D03C324C2E19100382454 /* dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D036324C2E19100382454 /* dot@2x.png */; };
+		072D03C424C2E19100382454 /* divider@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D036424C2E19100382454 /* divider@2x.png */; };
+		072D03C524C2E19100382454 /* real-name-one@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D036524C2E19100382454 /* real-name-one@2x.png */; };
+		072D03C624C2E19100382454 /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D036624C2E19100382454 /* close@3x.png */; };
+		072D03C724C2E19100382454 /* real-name@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D036724C2E19100382454 /* real-name@3x.png */; };
+		072D03C824C2E19100382454 /* bottom@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D036824C2E19100382454 /* bottom@3x.png */; };
+		072D03C924C2E19100382454 /* bottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D036924C2E19100382454 /* bottom@2x.png */; };
+		072D03CA24C2E19100382454 /* real-name@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D036A24C2E19100382454 /* real-name@2x.png */; };
+		072D03CB24C2E19100382454 /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D036B24C2E19100382454 /* close@2x.png */; };
+		072D03CC24C2E19100382454 /* binding.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D036C24C2E19100382454 /* binding.png */; };
+		072D03CD24C2E19100382454 /* real-name-one@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D036D24C2E19100382454 /* real-name-one@3x.png */; };
+		072D03CE24C2E19100382454 /* message.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D036E24C2E19100382454 /* message.png */; };
+		072D03CF24C2E19100382454 /* divider@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D036F24C2E19100382454 /* divider@3x.png */; };
+		072D03D024C2E19100382454 /* dot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D037024C2E19100382454 /* dot@3x.png */; };
+		072D03D124C2E19100382454 /* pay-fail@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D037124C2E19100382454 /* pay-fail@3x.png */; };
+		072D03D224C2E19100382454 /* weixin-white.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D037224C2E19100382454 /* weixin-white.png */; };
+		072D03D324C2E19100382454 /* button-05@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D037324C2E19100382454 /* button-05@3x.png */; };
+		072D03D424C2E19100382454 /* checkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D037424C2E19100382454 /* checkmark@3x.png */; };
+		072D03D524C2E19100382454 /* message@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D037524C2E19100382454 /* message@2x.png */; };
+		072D03D624C2E19100382454 /* pay-success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D037624C2E19100382454 /* pay-success@3x.png */; };
+		072D03D724C2E19100382454 /* account-bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D037724C2E19100382454 /* account-bg@2x.png */; };
+		072D03D824C2E19100382454 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 072D037824C2E19100382454 /* close.png */; };
+		0752A82024C67FA700C177AA /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0752A81F24C67FA700C177AA /* StoreKit.framework */; };
+		0752A87524C6F2D200C177AA /* badge@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0752A86F24C6F2D100C177AA /* badge@2x.png */; };
+		0752A87624C6F2D200C177AA /* badge@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0752A87024C6F2D200C177AA /* badge@3x.png */; };
+		0752A87724C6F2D200C177AA /* binding-02@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0752A87124C6F2D200C177AA /* binding-02@2x.png */; };
+		0752A87824C6F2D200C177AA /* binding-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 0752A87224C6F2D200C177AA /* binding-02.png */; };
+		0752A87924C6F2D200C177AA /* binding-02@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0752A87324C6F2D200C177AA /* binding-02@3x.png */; };
+		0752A87A24C6F2D200C177AA /* badge.png in Resources */ = {isa = PBXBuildFile; fileRef = 0752A87424C6F2D200C177AA /* badge.png */; };
+		07647BC924CAB84400A64711 /* add-picture.png in Resources */ = {isa = PBXBuildFile; fileRef = 07647BC624CAB84400A64711 /* add-picture.png */; };
+		07647BCA24CAB84400A64711 /* add-picture@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07647BC724CAB84400A64711 /* add-picture@3x.png */; };
+		07647BCB24CAB84400A64711 /* add-picture@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07647BC824CAB84400A64711 /* add-picture@2x.png */; };
+		07D6F49024C841A800DA78E3 /* down@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D6F48D24C841A700DA78E3 /* down@3x.png */; };
+		07D6F49124C841A800DA78E3 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D6F48E24C841A800DA78E3 /* down.png */; };
+		07D6F49224C841A800DA78E3 /* down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07D6F48F24C841A800DA78E3 /* down@2x.png */; };
+		07EF7C7924D157C200B87032 /* float@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 07EF7C7824D157C200B87032 /* float@2x.png */; };
+		5A1BE332FDD425380FB17625 /* Pods_LinKingSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56505EC97536911CD3BD0485 /* Pods_LinKingSDK_Example.framework */; };
+		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
+		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
+		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
+		6003F59E195388D20070C39A /* LEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* LEAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* LEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* LEViewController.m */; };
+		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
+		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
+		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
+		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
+		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
+		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
+		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6003F589195388D20070C39A;
+			remoteInfo = LinKingSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		07293F1724C01BA2006A5623 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		012D4D286FCE0B722253BB4B /* Pods-LinKingSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinKingSDK_Example.release.xcconfig"; path = "Target Support Files/Pods-LinKingSDK_Example/Pods-LinKingSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		0716BC7124D41393008C2147 /* green_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green_bg@2x.png"; sourceTree = "<group>"; };
+		0716BC7224D41393008C2147 /* green_bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green_bg@3x.png"; sourceTree = "<group>"; };
+		0716BC7324D41393008C2147 /* green_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_bg.png; sourceTree = "<group>"; };
+		072D031924C2E19100382454 /* pay-fail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay-fail.png"; sourceTree = "<group>"; };
+		072D031A24C2E19100382454 /* button-two.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-two.png"; sourceTree = "<group>"; };
+		072D031B24C2E19100382454 /* button-two@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-two@2x.png"; sourceTree = "<group>"; };
+		072D031C24C2E19100382454 /* id-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "id-bg@2x.png"; sourceTree = "<group>"; };
+		072D031D24C2E19100382454 /* header-black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header-black.png"; sourceTree = "<group>"; };
+		072D031E24C2E19100382454 /* close-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-white.png"; sourceTree = "<group>"; };
+		072D031F24C2E19100382454 /* id-bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "id-bg@3x.png"; sourceTree = "<group>"; };
+		072D032024C2E19100382454 /* real-name-one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "real-name-one.png"; sourceTree = "<group>"; };
+		072D032124C2E19100382454 /* button-two@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-two@3x.png"; sourceTree = "<group>"; };
+		072D032224C2E19100382454 /* order.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = order.png; sourceTree = "<group>"; };
+		072D032324C2E19100382454 /* wx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wx.png; sourceTree = "<group>"; };
+		072D032424C2E19100382454 /* dot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.png; sourceTree = "<group>"; };
+		072D032524C2E19100382454 /* button-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-03.png"; sourceTree = "<group>"; };
+		072D032624C2E19100382454 /* divider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = divider.png; sourceTree = "<group>"; };
+		072D032724C2E19100382454 /* button-one@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-one@2x.png"; sourceTree = "<group>"; };
+		072D032824C2E19100382454 /* button-04@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-04@2x.png"; sourceTree = "<group>"; };
+		072D032924C2E19100382454 /* frame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame@2x.png"; sourceTree = "<group>"; };
+		072D032A24C2E19100382454 /* loginbutton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginbutton@2x.png"; sourceTree = "<group>"; };
+		072D032B24C2E19100382454 /* wx@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wx@2x.png"; sourceTree = "<group>"; };
+		072D032C24C2E19100382454 /* bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom.png; sourceTree = "<group>"; };
+		072D032D24C2E19100382454 /* weixin@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin@3x.png"; sourceTree = "<group>"; };
+		072D032E24C2E19100382454 /* default-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-icon@2x.png"; sourceTree = "<group>"; };
+		072D032F24C2E19100382454 /* right-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-arrow@2x.png"; sourceTree = "<group>"; };
+		072D033024C2E19100382454 /* ios@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios@3x.png"; sourceTree = "<group>"; };
+		072D033124C2E19100382454 /* account-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account-bg.png"; sourceTree = "<group>"; };
+		072D033224C2E19100382454 /* pay-success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay-success.png"; sourceTree = "<group>"; };
+		072D033324C2E19100382454 /* ios@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ios@2x.png"; sourceTree = "<group>"; };
+		072D033424C2E19100382454 /* button-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-05.png"; sourceTree = "<group>"; };
+		072D033524C2E19100382454 /* right-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-arrow.png"; sourceTree = "<group>"; };
+		072D033624C2E19100382454 /* right-arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right-arrow@3x.png"; sourceTree = "<group>"; };
+		072D033724C2E19100382454 /* default-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-icon@3x.png"; sourceTree = "<group>"; };
+		072D033824C2E19100382454 /* weixin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin@2x.png"; sourceTree = "<group>"; };
+		072D033924C2E19100382454 /* wx@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wx@3x.png"; sourceTree = "<group>"; };
+		072D033A24C2E19100382454 /* button-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-04.png"; sourceTree = "<group>"; };
+		072D033B24C2E19100382454 /* loginbutton@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loginbutton@3x.png"; sourceTree = "<group>"; };
+		072D033C24C2E19100382454 /* button-04@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-04@3x.png"; sourceTree = "<group>"; };
+		072D033D24C2E19100382454 /* frame@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "frame@3x.png"; sourceTree = "<group>"; };
+		072D033E24C2E19100382454 /* button-one@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-one@3x.png"; sourceTree = "<group>"; };
+		072D033F24C2E19100382454 /* ali.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ali.png; sourceTree = "<group>"; };
+		072D034024C2E19100382454 /* id-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "id-bg.png"; sourceTree = "<group>"; };
+		072D034124C2E19100382454 /* weixin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weixin.png; sourceTree = "<group>"; };
+		072D034224C2E19100382454 /* default-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-icon.png"; sourceTree = "<group>"; };
+		072D034324C2E19100382454 /* checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkmark.png; sourceTree = "<group>"; };
+		072D034424C2E19100382454 /* order@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "order@2x.png"; sourceTree = "<group>"; };
+		072D034524C2E19100382454 /* header-black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header-black@2x.png"; sourceTree = "<group>"; };
+		072D034624C2E19100382454 /* button-03@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-03@2x.png"; sourceTree = "<group>"; };
+		072D034724C2E19100382454 /* ali@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ali@3x.png"; sourceTree = "<group>"; };
+		072D034824C2E19100382454 /* close-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-white@2x.png"; sourceTree = "<group>"; };
+		072D034924C2E19100382454 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
+		072D034A24C2E19100382454 /* binding@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "binding@3x.png"; sourceTree = "<group>"; };
+		072D034B24C2E19100382454 /* weixin-white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin-white@2x.png"; sourceTree = "<group>"; };
+		072D034C24C2E19100382454 /* header@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header@2x.png"; sourceTree = "<group>"; };
+		072D034D24C2E19100382454 /* quick-login@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quick-login@2x.png"; sourceTree = "<group>"; };
+		072D034E24C2E19100382454 /* quick-login@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quick-login@3x.png"; sourceTree = "<group>"; };
+		072D034F24C2E19100382454 /* header@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header@3x.png"; sourceTree = "<group>"; };
+		072D035024C2E19100382454 /* weixin-white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin-white@3x.png"; sourceTree = "<group>"; };
+		072D035124C2E19100382454 /* binding@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "binding@2x.png"; sourceTree = "<group>"; };
+		072D035224C2E19100382454 /* close-white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close-white@3x.png"; sourceTree = "<group>"; };
+		072D035324C2E19100382454 /* quick-login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "quick-login.png"; sourceTree = "<group>"; };
+		072D035424C2E19100382454 /* button-03@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-03@3x.png"; sourceTree = "<group>"; };
+		072D035524C2E19100382454 /* ali@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ali@2x.png"; sourceTree = "<group>"; };
+		072D035624C2E19100382454 /* loginbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loginbutton.png; sourceTree = "<group>"; };
+		072D035724C2E19100382454 /* header-black@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "header-black@3x.png"; sourceTree = "<group>"; };
+		072D035824C2E19100382454 /* real-name.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "real-name.png"; sourceTree = "<group>"; };
+		072D035924C2E19100382454 /* ios.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ios.png; sourceTree = "<group>"; };
+		072D035A24C2E19100382454 /* order@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "order@3x.png"; sourceTree = "<group>"; };
+		072D035B24C2E19100382454 /* frame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frame.png; sourceTree = "<group>"; };
+		072D035C24C2E19100382454 /* account-bg@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account-bg@3x.png"; sourceTree = "<group>"; };
+		072D035D24C2E19100382454 /* pay-success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay-success@2x.png"; sourceTree = "<group>"; };
+		072D035E24C2E19100382454 /* checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@2x.png"; sourceTree = "<group>"; };
+		072D035F24C2E19100382454 /* message@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message@3x.png"; sourceTree = "<group>"; };
+		072D036024C2E19100382454 /* button-05@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-05@2x.png"; sourceTree = "<group>"; };
+		072D036124C2E19100382454 /* button-one.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-one.png"; sourceTree = "<group>"; };
+		072D036224C2E19100382454 /* pay-fail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay-fail@2x.png"; sourceTree = "<group>"; };
+		072D036324C2E19100382454 /* dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot@2x.png"; sourceTree = "<group>"; };
+		072D036424C2E19100382454 /* divider@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "divider@2x.png"; sourceTree = "<group>"; };
+		072D036524C2E19100382454 /* real-name-one@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "real-name-one@2x.png"; sourceTree = "<group>"; };
+		072D036624C2E19100382454 /* close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
+		072D036724C2E19100382454 /* real-name@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "real-name@3x.png"; sourceTree = "<group>"; };
+		072D036824C2E19100382454 /* bottom@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom@3x.png"; sourceTree = "<group>"; };
+		072D036924C2E19100382454 /* bottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bottom@2x.png"; sourceTree = "<group>"; };
+		072D036A24C2E19100382454 /* real-name@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "real-name@2x.png"; sourceTree = "<group>"; };
+		072D036B24C2E19100382454 /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		072D036C24C2E19100382454 /* binding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = binding.png; sourceTree = "<group>"; };
+		072D036D24C2E19100382454 /* real-name-one@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "real-name-one@3x.png"; sourceTree = "<group>"; };
+		072D036E24C2E19100382454 /* message.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = message.png; sourceTree = "<group>"; };
+		072D036F24C2E19100382454 /* divider@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "divider@3x.png"; sourceTree = "<group>"; };
+		072D037024C2E19100382454 /* dot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dot@3x.png"; sourceTree = "<group>"; };
+		072D037124C2E19100382454 /* pay-fail@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay-fail@3x.png"; sourceTree = "<group>"; };
+		072D037224C2E19100382454 /* weixin-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "weixin-white.png"; sourceTree = "<group>"; };
+		072D037324C2E19100382454 /* button-05@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button-05@3x.png"; sourceTree = "<group>"; };
+		072D037424C2E19100382454 /* checkmark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "checkmark@3x.png"; sourceTree = "<group>"; };
+		072D037524C2E19100382454 /* message@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "message@2x.png"; sourceTree = "<group>"; };
+		072D037624C2E19100382454 /* pay-success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pay-success@3x.png"; sourceTree = "<group>"; };
+		072D037724C2E19100382454 /* account-bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "account-bg@2x.png"; sourceTree = "<group>"; };
+		072D037824C2E19100382454 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		0752A81E24C67DA000C177AA /* LinKingSDK_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LinKingSDK_Example.entitlements; sourceTree = "<group>"; };
+		0752A81F24C67FA700C177AA /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		0752A86F24C6F2D100C177AA /* badge@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "badge@2x.png"; sourceTree = "<group>"; };
+		0752A87024C6F2D200C177AA /* badge@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "badge@3x.png"; sourceTree = "<group>"; };
+		0752A87124C6F2D200C177AA /* binding-02@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "binding-02@2x.png"; sourceTree = "<group>"; };
+		0752A87224C6F2D200C177AA /* binding-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "binding-02.png"; sourceTree = "<group>"; };
+		0752A87324C6F2D200C177AA /* binding-02@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "binding-02@3x.png"; sourceTree = "<group>"; };
+		0752A87424C6F2D200C177AA /* badge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = badge.png; sourceTree = "<group>"; };
+		07647BC624CAB84400A64711 /* add-picture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-picture.png"; sourceTree = "<group>"; };
+		07647BC724CAB84400A64711 /* add-picture@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-picture@3x.png"; sourceTree = "<group>"; };
+		07647BC824CAB84400A64711 /* add-picture@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add-picture@2x.png"; sourceTree = "<group>"; };
+		07D6F48D24C841A700DA78E3 /* down@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down@3x.png"; sourceTree = "<group>"; };
+		07D6F48E24C841A800DA78E3 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		07D6F48F24C841A800DA78E3 /* down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down@2x.png"; sourceTree = "<group>"; };
+		07EF7C7824D157C200B87032 /* float@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "float@2x.png"; sourceTree = "<group>"; };
+		3D21C9F9AE8308E524B18B4A /* Pods-LinKingSDK_Example-LinKingSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinKingSDK_Example-LinKingSDK.release.xcconfig"; path = "Target Support Files/Pods-LinKingSDK_Example-LinKingSDK/Pods-LinKingSDK_Example-LinKingSDK.release.xcconfig"; sourceTree = "<group>"; };
+		436905DFA00E7BD4462C4872 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		56505EC97536911CD3BD0485 /* Pods_LinKingSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinKingSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* LinKingSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinKingSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F595195388D20070C39A /* LinKingSDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LinKingSDK-Info.plist"; sourceTree = "<group>"; };
+		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* LinKingSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinKingSDK-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* LEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* LEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* LEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* LEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEViewController.m; sourceTree = "<group>"; };
+		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6003F5AE195388D20070C39A /* LinKingSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinKingSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
+		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FC5F57FA41D64E5B90E647D /* Pods_LinKingSDK_Example_LinKingSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LinKingSDK_Example_LinKingSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96814AF9542625645F843052 /* Pods-LinKingSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinKingSDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-LinKingSDK_Example/Pods-LinKingSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A966776F73C40E73D9570580 /* Pods-LinKingSDK_Example-LinKingSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LinKingSDK_Example-LinKingSDK.debug.xcconfig"; path = "Target Support Files/Pods-LinKingSDK_Example-LinKingSDK/Pods-LinKingSDK_Example-LinKingSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		AE74518C5AFDF1A79C777032 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FB7FB411ABA9B14B2A842F79 /* LinKingSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LinKingSDK.podspec; path = ../LinKingSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6003F587195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
+				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
+				0752A82024C67FA700C177AA /* StoreKit.framework in Frameworks */,
+				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
+				5A1BE332FDD425380FB17625 /* Pods_LinKingSDK_Example.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AB195388D20070C39A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
+				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
+				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072D031824C2E19100382454 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0716BC7324D41393008C2147 /* green_bg.png */,
+				0716BC7124D41393008C2147 /* green_bg@2x.png */,
+				0716BC7224D41393008C2147 /* green_bg@3x.png */,
+				07EF7C7824D157C200B87032 /* float@2x.png */,
+				07647BC624CAB84400A64711 /* add-picture.png */,
+				07647BC824CAB84400A64711 /* add-picture@2x.png */,
+				07647BC724CAB84400A64711 /* add-picture@3x.png */,
+				07D6F48E24C841A800DA78E3 /* down.png */,
+				07D6F48F24C841A800DA78E3 /* down@2x.png */,
+				07D6F48D24C841A700DA78E3 /* down@3x.png */,
+				0752A87424C6F2D200C177AA /* badge.png */,
+				0752A86F24C6F2D100C177AA /* badge@2x.png */,
+				0752A87024C6F2D200C177AA /* badge@3x.png */,
+				0752A87224C6F2D200C177AA /* binding-02.png */,
+				0752A87124C6F2D200C177AA /* binding-02@2x.png */,
+				0752A87324C6F2D200C177AA /* binding-02@3x.png */,
+				072D031924C2E19100382454 /* pay-fail.png */,
+				072D031A24C2E19100382454 /* button-two.png */,
+				072D031B24C2E19100382454 /* button-two@2x.png */,
+				072D031C24C2E19100382454 /* id-bg@2x.png */,
+				072D031D24C2E19100382454 /* header-black.png */,
+				072D031E24C2E19100382454 /* close-white.png */,
+				072D031F24C2E19100382454 /* id-bg@3x.png */,
+				072D032024C2E19100382454 /* real-name-one.png */,
+				072D032124C2E19100382454 /* button-two@3x.png */,
+				072D032224C2E19100382454 /* order.png */,
+				072D032324C2E19100382454 /* wx.png */,
+				072D032424C2E19100382454 /* dot.png */,
+				072D032524C2E19100382454 /* button-03.png */,
+				072D032624C2E19100382454 /* divider.png */,
+				072D032724C2E19100382454 /* button-one@2x.png */,
+				072D032824C2E19100382454 /* button-04@2x.png */,
+				072D032924C2E19100382454 /* frame@2x.png */,
+				072D032A24C2E19100382454 /* loginbutton@2x.png */,
+				072D032B24C2E19100382454 /* wx@2x.png */,
+				072D032C24C2E19100382454 /* bottom.png */,
+				072D032D24C2E19100382454 /* weixin@3x.png */,
+				072D032E24C2E19100382454 /* default-icon@2x.png */,
+				072D032F24C2E19100382454 /* right-arrow@2x.png */,
+				072D033024C2E19100382454 /* ios@3x.png */,
+				072D033124C2E19100382454 /* account-bg.png */,
+				072D033224C2E19100382454 /* pay-success.png */,
+				072D033324C2E19100382454 /* ios@2x.png */,
+				072D033424C2E19100382454 /* button-05.png */,
+				072D033524C2E19100382454 /* right-arrow.png */,
+				072D033624C2E19100382454 /* right-arrow@3x.png */,
+				072D033724C2E19100382454 /* default-icon@3x.png */,
+				072D033824C2E19100382454 /* weixin@2x.png */,
+				072D033924C2E19100382454 /* wx@3x.png */,
+				072D033A24C2E19100382454 /* button-04.png */,
+				072D033B24C2E19100382454 /* loginbutton@3x.png */,
+				072D033C24C2E19100382454 /* button-04@3x.png */,
+				072D033D24C2E19100382454 /* frame@3x.png */,
+				072D033E24C2E19100382454 /* button-one@3x.png */,
+				072D033F24C2E19100382454 /* ali.png */,
+				072D034024C2E19100382454 /* id-bg.png */,
+				072D034124C2E19100382454 /* weixin.png */,
+				072D034224C2E19100382454 /* default-icon.png */,
+				072D034324C2E19100382454 /* checkmark.png */,
+				072D034424C2E19100382454 /* order@2x.png */,
+				072D034524C2E19100382454 /* header-black@2x.png */,
+				072D034624C2E19100382454 /* button-03@2x.png */,
+				072D034724C2E19100382454 /* ali@3x.png */,
+				072D034824C2E19100382454 /* close-white@2x.png */,
+				072D034924C2E19100382454 /* header.png */,
+				072D034A24C2E19100382454 /* binding@3x.png */,
+				072D034B24C2E19100382454 /* weixin-white@2x.png */,
+				072D034C24C2E19100382454 /* header@2x.png */,
+				072D034D24C2E19100382454 /* quick-login@2x.png */,
+				072D034E24C2E19100382454 /* quick-login@3x.png */,
+				072D034F24C2E19100382454 /* header@3x.png */,
+				072D035024C2E19100382454 /* weixin-white@3x.png */,
+				072D035124C2E19100382454 /* binding@2x.png */,
+				072D035224C2E19100382454 /* close-white@3x.png */,
+				072D035324C2E19100382454 /* quick-login.png */,
+				072D035424C2E19100382454 /* button-03@3x.png */,
+				072D035524C2E19100382454 /* ali@2x.png */,
+				072D035624C2E19100382454 /* loginbutton.png */,
+				072D035724C2E19100382454 /* header-black@3x.png */,
+				072D035824C2E19100382454 /* real-name.png */,
+				072D035924C2E19100382454 /* ios.png */,
+				072D035A24C2E19100382454 /* order@3x.png */,
+				072D035B24C2E19100382454 /* frame.png */,
+				072D035C24C2E19100382454 /* account-bg@3x.png */,
+				072D035D24C2E19100382454 /* pay-success@2x.png */,
+				072D035E24C2E19100382454 /* checkmark@2x.png */,
+				072D035F24C2E19100382454 /* message@3x.png */,
+				072D036024C2E19100382454 /* button-05@2x.png */,
+				072D036124C2E19100382454 /* button-one.png */,
+				072D036224C2E19100382454 /* pay-fail@2x.png */,
+				072D036324C2E19100382454 /* dot@2x.png */,
+				072D036424C2E19100382454 /* divider@2x.png */,
+				072D036524C2E19100382454 /* real-name-one@2x.png */,
+				072D036624C2E19100382454 /* close@3x.png */,
+				072D036724C2E19100382454 /* real-name@3x.png */,
+				072D036824C2E19100382454 /* bottom@3x.png */,
+				072D036924C2E19100382454 /* bottom@2x.png */,
+				072D036A24C2E19100382454 /* real-name@2x.png */,
+				072D036B24C2E19100382454 /* close@2x.png */,
+				072D036C24C2E19100382454 /* binding.png */,
+				072D036D24C2E19100382454 /* real-name-one@3x.png */,
+				072D036E24C2E19100382454 /* message.png */,
+				072D036F24C2E19100382454 /* divider@3x.png */,
+				072D037024C2E19100382454 /* dot@3x.png */,
+				072D037124C2E19100382454 /* pay-fail@3x.png */,
+				072D037224C2E19100382454 /* weixin-white.png */,
+				072D037324C2E19100382454 /* button-05@3x.png */,
+				072D037424C2E19100382454 /* checkmark@3x.png */,
+				072D037524C2E19100382454 /* message@2x.png */,
+				072D037624C2E19100382454 /* pay-success@3x.png */,
+				072D037724C2E19100382454 /* account-bg@2x.png */,
+				072D037824C2E19100382454 /* close.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				0752A81E24C67DA000C177AA /* LinKingSDK_Example.entitlements */,
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F593195388D20070C39A /* Example for LinKingSDK */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				86AAD3D09AE99356E0E71CAC /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58A195388D20070C39A /* LinKingSDK_Example.app */,
+				6003F5AE195388D20070C39A /* LinKingSDK_Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0752A81F24C67FA700C177AA /* StoreKit.framework */,
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				56505EC97536911CD3BD0485 /* Pods_LinKingSDK_Example.framework */,
+				8FC5F57FA41D64E5B90E647D /* Pods_LinKingSDK_Example_LinKingSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6003F593195388D20070C39A /* Example for LinKingSDK */ = {
+			isa = PBXGroup;
+			children = (
+				072D031824C2E19100382454 /* Resources */,
+				6003F59C195388D20070C39A /* LEAppDelegate.h */,
+				6003F59D195388D20070C39A /* LEAppDelegate.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				6003F5A5195388D20070C39A /* LEViewController.h */,
+				6003F5A6195388D20070C39A /* LEViewController.m */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
+				6003F594195388D20070C39A /* Supporting Files */,
+			);
+			name = "Example for LinKingSDK";
+			path = LinKingSDK;
+			sourceTree = "<group>";
+		};
+		6003F594195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F595195388D20070C39A /* LinKingSDK-Info.plist */,
+				6003F596195388D20070C39A /* InfoPlist.strings */,
+				6003F599195388D20070C39A /* main.m */,
+				6003F59B195388D20070C39A /* LinKingSDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6003F5B5195388D20070C39A /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5BB195388D20070C39A /* Tests.m */,
+				6003F5B6195388D20070C39A /* Supporting Files */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6003F5B6195388D20070C39A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6003F5B7195388D20070C39A /* Tests-Info.plist */,
+				6003F5B8195388D20070C39A /* InfoPlist.strings */,
+				606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				FB7FB411ABA9B14B2A842F79 /* LinKingSDK.podspec */,
+				AE74518C5AFDF1A79C777032 /* README.md */,
+				436905DFA00E7BD4462C4872 /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		86AAD3D09AE99356E0E71CAC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96814AF9542625645F843052 /* Pods-LinKingSDK_Example.debug.xcconfig */,
+				012D4D286FCE0B722253BB4B /* Pods-LinKingSDK_Example.release.xcconfig */,
+				A966776F73C40E73D9570580 /* Pods-LinKingSDK_Example-LinKingSDK.debug.xcconfig */,
+				3D21C9F9AE8308E524B18B4A /* Pods-LinKingSDK_Example-LinKingSDK.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6003F589195388D20070C39A /* LinKingSDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LinKingSDK_Example" */;
+			buildPhases = (
+				EEEB0AE9B9BB9760B0C38EB3 /* [CP] Check Pods Manifest.lock */,
+				6003F586195388D20070C39A /* Sources */,
+				6003F587195388D20070C39A /* Frameworks */,
+				6003F588195388D20070C39A /* Resources */,
+				07293F1724C01BA2006A5623 /* Embed Frameworks */,
+				5102C270EAB9FC6A039F738E /* [CP] Copy Pods Resources */,
+				AF03AD90419E6917761B8D5A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinKingSDK_Example;
+			productName = LinKingSDK;
+			productReference = 6003F58A195388D20070C39A /* LinKingSDK_Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6003F5AD195388D20070C39A /* LinKingSDK_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LinKingSDK_Tests" */;
+			buildPhases = (
+				6003F5AA195388D20070C39A /* Sources */,
+				6003F5AB195388D20070C39A /* Frameworks */,
+				6003F5AC195388D20070C39A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+			);
+			name = LinKingSDK_Tests;
+			productName = LinKingSDKTests;
+			productReference = 6003F5AE195388D20070C39A /* LinKingSDK_Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LK;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "dml1630@163.com";
+				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = MKRFK77PRR;
+						ProvisioningStyle = Automatic;
+					};
+					6003F5AD195388D20070C39A = {
+						TestTargetID = 6003F589195388D20070C39A;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "LinKingSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6003F589195388D20070C39A /* LinKingSDK_Example */,
+				6003F5AD195388D20070C39A /* LinKingSDK_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6003F588195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072D03BC24C2E19100382454 /* account-bg@3x.png in Resources */,
+				072D03B124C2E19100382454 /* binding@2x.png in Resources */,
+				0716BC7424D41393008C2147 /* green_bg@2x.png in Resources */,
+				072D03C024C2E19100382454 /* button-05@2x.png in Resources */,
+				072D039724C2E19100382454 /* default-icon@3x.png in Resources */,
+				072D03D424C2E19100382454 /* checkmark@3x.png in Resources */,
+				072D038324C2E19100382454 /* wx.png in Resources */,
+				072D039924C2E19100382454 /* wx@3x.png in Resources */,
+				0752A87924C6F2D200C177AA /* binding-02@3x.png in Resources */,
+				072D039024C2E19100382454 /* ios@3x.png in Resources */,
+				072D039F24C2E19100382454 /* ali.png in Resources */,
+				072D039C24C2E19100382454 /* button-04@3x.png in Resources */,
+				072D039324C2E19100382454 /* ios@2x.png in Resources */,
+				072D03B724C2E19100382454 /* header-black@3x.png in Resources */,
+				072D03C424C2E19100382454 /* divider@2x.png in Resources */,
+				072D037D24C2E19100382454 /* header-black.png in Resources */,
+				072D03C924C2E19100382454 /* bottom@2x.png in Resources */,
+				072D038124C2E19100382454 /* button-two@3x.png in Resources */,
+				072D03D624C2E19100382454 /* pay-success@3x.png in Resources */,
+				072D037B24C2E19100382454 /* button-two@2x.png in Resources */,
+				072D03BE24C2E19100382454 /* checkmark@2x.png in Resources */,
+				072D03D224C2E19100382454 /* weixin-white.png in Resources */,
+				072D038A24C2E19100382454 /* loginbutton@2x.png in Resources */,
+				07647BC924CAB84400A64711 /* add-picture.png in Resources */,
+				072D038724C2E19100382454 /* button-one@2x.png in Resources */,
+				072D03CC24C2E19100382454 /* binding.png in Resources */,
+				072D03B024C2E19100382454 /* weixin-white@3x.png in Resources */,
+				072D03C524C2E19100382454 /* real-name-one@2x.png in Resources */,
+				072D03BA24C2E19100382454 /* order@3x.png in Resources */,
+				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				07D6F49224C841A800DA78E3 /* down@2x.png in Resources */,
+				072D03D024C2E19100382454 /* dot@3x.png in Resources */,
+				072D03D324C2E19100382454 /* button-05@3x.png in Resources */,
+				072D039E24C2E19100382454 /* button-one@3x.png in Resources */,
+				072D038824C2E19100382454 /* button-04@2x.png in Resources */,
+				07EF7C7924D157C200B87032 /* float@2x.png in Resources */,
+				072D03A324C2E19100382454 /* checkmark.png in Resources */,
+				072D03AB24C2E19100382454 /* weixin-white@2x.png in Resources */,
+				072D03BB24C2E19100382454 /* frame.png in Resources */,
+				072D03A224C2E19100382454 /* default-icon.png in Resources */,
+				072D038524C2E19100382454 /* button-03.png in Resources */,
+				072D039524C2E19100382454 /* right-arrow.png in Resources */,
+				072D03CE24C2E19100382454 /* message.png in Resources */,
+				072D03C824C2E19100382454 /* bottom@3x.png in Resources */,
+				072D039224C2E19100382454 /* pay-success.png in Resources */,
+				072D03A824C2E19100382454 /* close-white@2x.png in Resources */,
+				072D03BD24C2E19100382454 /* pay-success@2x.png in Resources */,
+				0716BC7524D41393008C2147 /* green_bg@3x.png in Resources */,
+				07D6F49124C841A800DA78E3 /* down.png in Resources */,
+				072D03CD24C2E19100382454 /* real-name-one@3x.png in Resources */,
+				072D03C724C2E19100382454 /* real-name@3x.png in Resources */,
+				0752A87724C6F2D200C177AA /* binding-02@2x.png in Resources */,
+				072D03A524C2E19100382454 /* header-black@2x.png in Resources */,
+				072D03A124C2E19100382454 /* weixin.png in Resources */,
+				072D03B824C2E19100382454 /* real-name.png in Resources */,
+				072D038D24C2E19100382454 /* weixin@3x.png in Resources */,
+				072D03A424C2E19100382454 /* order@2x.png in Resources */,
+				072D03CA24C2E19100382454 /* real-name@2x.png in Resources */,
+				072D03A024C2E19100382454 /* id-bg.png in Resources */,
+				072D037E24C2E19100382454 /* close-white.png in Resources */,
+				072D039B24C2E19100382454 /* loginbutton@3x.png in Resources */,
+				072D037A24C2E19100382454 /* button-two.png in Resources */,
+				072D037F24C2E19100382454 /* id-bg@3x.png in Resources */,
+				072D039424C2E19100382454 /* button-05.png in Resources */,
+				072D03B524C2E19100382454 /* ali@2x.png in Resources */,
+				072D039D24C2E19100382454 /* frame@3x.png in Resources */,
+				072D03AE24C2E19100382454 /* quick-login@3x.png in Resources */,
+				072D03D824C2E19100382454 /* close.png in Resources */,
+				072D03B924C2E19100382454 /* ios.png in Resources */,
+				072D03C124C2E19100382454 /* button-one.png in Resources */,
+				072D03A924C2E19100382454 /* header.png in Resources */,
+				072D039A24C2E19100382454 /* button-04.png in Resources */,
+				0752A87824C6F2D200C177AA /* binding-02.png in Resources */,
+				072D03BF24C2E19100382454 /* message@3x.png in Resources */,
+				072D03C624C2E19100382454 /* close@3x.png in Resources */,
+				0752A87624C6F2D200C177AA /* badge@3x.png in Resources */,
+				072D03CB24C2E19100382454 /* close@2x.png in Resources */,
+				072D038E24C2E19100382454 /* default-icon@2x.png in Resources */,
+				072D03AD24C2E19100382454 /* quick-login@2x.png in Resources */,
+				072D03D124C2E19100382454 /* pay-fail@3x.png in Resources */,
+				072D03CF24C2E19100382454 /* divider@3x.png in Resources */,
+				07D6F49024C841A800DA78E3 /* down@3x.png in Resources */,
+				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				0752A87A24C6F2D200C177AA /* badge.png in Resources */,
+				072D039124C2E19100382454 /* account-bg.png in Resources */,
+				072D038B24C2E19100382454 /* wx@2x.png in Resources */,
+				072D03D724C2E19100382454 /* account-bg@2x.png in Resources */,
+				072D037C24C2E19100382454 /* id-bg@2x.png in Resources */,
+				072D037924C2E19100382454 /* pay-fail.png in Resources */,
+				072D038924C2E19100382454 /* frame@2x.png in Resources */,
+				072D03C224C2E19100382454 /* pay-fail@2x.png in Resources */,
+				072D03D524C2E19100382454 /* message@2x.png in Resources */,
+				072D03B224C2E19100382454 /* close-white@3x.png in Resources */,
+				072D038C24C2E19100382454 /* bottom.png in Resources */,
+				072D03AA24C2E19100382454 /* binding@3x.png in Resources */,
+				072D03C324C2E19100382454 /* dot@2x.png in Resources */,
+				072D03AC24C2E19100382454 /* header@2x.png in Resources */,
+				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				072D03AF24C2E19100382454 /* header@3x.png in Resources */,
+				072D038224C2E19100382454 /* order.png in Resources */,
+				072D03B324C2E19100382454 /* quick-login.png in Resources */,
+				072D038024C2E19100382454 /* real-name-one.png in Resources */,
+				072D03A624C2E19100382454 /* button-03@2x.png in Resources */,
+				072D039624C2E19100382454 /* right-arrow@3x.png in Resources */,
+				072D03A724C2E19100382454 /* ali@3x.png in Resources */,
+				0716BC7624D41393008C2147 /* green_bg.png in Resources */,
+				072D038424C2E19100382454 /* dot.png in Resources */,
+				07647BCA24CAB84400A64711 /* add-picture@3x.png in Resources */,
+				072D038F24C2E19100382454 /* right-arrow@2x.png in Resources */,
+				0752A87524C6F2D200C177AA /* badge@2x.png in Resources */,
+				072D038624C2E19100382454 /* divider.png in Resources */,
+				072D03B424C2E19100382454 /* button-03@3x.png in Resources */,
+				072D039824C2E19100382454 /* weixin@2x.png in Resources */,
+				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				07647BCB24CAB84400A64711 /* add-picture@2x.png in Resources */,
+				072D03B624C2E19100382454 /* loginbutton.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AC195388D20070C39A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5102C270EAB9FC6A039F738E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LinKingSDK_Example/Pods-LinKingSDK_Example-resources.sh",
+				"${PODS_ROOT}/AlipaySDK-iOS/AlipaySDK.bundle",
+				"${PODS_ROOT}/Bytedance-UnionAD/Bytedance-UnionAd/Frameworks/BUAdSDK.bundle",
+				"${PODS_ROOT}/../../LinKingSDK/Assets/LinKingSDKBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AlipaySDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BUAdSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/LinKingSDKBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LinKingSDK_Example/Pods-LinKingSDK_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF03AD90419E6917761B8D5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LinKingSDK_Example/Pods-LinKingSDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/TPKeyboardAvoiding/TPKeyboardAvoiding.framework",
+				"${BUILT_PRODUCTS_DIR}/TZImagePickerController/TZImagePickerController.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TPKeyboardAvoiding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TZImagePickerController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LinKingSDK_Example/Pods-LinKingSDK_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EEEB0AE9B9BB9760B0C38EB3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LinKingSDK_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6003F586195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F59E195388D20070C39A /* LEAppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* LEViewController.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6003F5AA195388D20070C39A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6003F589195388D20070C39A /* LinKingSDK_Example */;
+			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6003F596195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F597195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5B9195388D20070C39A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71719F9E1E33DC2100824A3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6003F5C0195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96814AF9542625645F843052 /* Pods-LinKingSDK_Example.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LinKingSDK_Example.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MKRFK77PRR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LinKingSDK/LinKingSDK-Prefix.pch";
+				INFOPLIST_FILE = "LinKingSDK/LinKingSDK-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peopleracingcar.linking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6003F5C1195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 012D4D286FCE0B722253BB4B /* Pods-LinKingSDK_Example.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LinKingSDK_Example.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MKRFK77PRR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LinKingSDK/LinKingSDK-Prefix.pch";
+				INFOPLIST_FILE = "LinKingSDK/LinKingSDK-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MODULE_NAME = ExampleApp;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.peopleracingcar.linking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6003F5C3195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinKingSDK_Example.app/LinKingSDK_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6003F5C4195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinKingSDK_Example.app/LinKingSDK_Example";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "LinKingSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LinKingSDK_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C0195388D20070C39A /* Debug */,
+				6003F5C1195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "LinKingSDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5C3195388D20070C39A /* Debug */,
+				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}
