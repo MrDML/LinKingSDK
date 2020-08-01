@@ -30,7 +30,7 @@ TODO: LinKingSDK is Overseas SDK Quick Integration Solution.
 
   s.ios.deployment_target = '9.0'
   
-  s.static_framework = true
+#  s.static_framework = true
 
   s.vendored_frameworks = "LinKingSDK/Products/LinKingSDK.framework"
   s.resources = "LinKingSDK/Assets/*.*"
