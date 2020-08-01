@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LinKingSDK'
-  s.version          = '0.1.2'
-  s.summary          = 'A short description of LinKingSDK'
+  s.version          = '0.1.3'
+  s.summary          = 'LinKingSDK Quick Integration Solution'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,7 +30,7 @@ TODO: LinKingSDK is Overseas SDK Quick Integration Solution.
 
   s.ios.deployment_target = '9.0'
   
-#  s.static_framework = true
+  s.static_framework = true
 
   s.vendored_frameworks = "LinKingSDK/Products/LinKingSDK.framework"
   s.resources = "LinKingSDK/Assets/*.*"
