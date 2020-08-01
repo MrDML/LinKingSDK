@@ -1,5 +1,5 @@
 framework module LinKingSDK {
-  umbrella header "LinKingSDK.h"
+  umbrella header "LinKingSDK-umbrella.h"
 
   export *
   module * { export * }
