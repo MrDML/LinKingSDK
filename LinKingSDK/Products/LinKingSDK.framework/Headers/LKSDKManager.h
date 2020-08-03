@@ -13,6 +13,7 @@
 @class LKAFManager;
 @class LKAdManager;
 @class LKSDKManager;
+@class LKPointManager;
 NS_ASSUME_NONNULL_BEGIN
 
 
@@ -33,6 +34,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong,readonly) LKAFManager *afManager;
 /// 广告管理对象
 @property (nonatomic, strong,readonly) LKAdManager *adManager;
+/// 打点管理类
+@property (nonatomic, strong,readonly) LKPointManager *pointManager;
 
 @property (nonatomic, weak) id<LKSDKManagerDelegate>delegate;
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		070CD66124D7FCA00031650E /* Pods_LinKingSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC83E2298941DC52B6F9426 /* Pods_LinKingSDK_Example.framework */; };
 		0716BC7424D41393008C2147 /* green_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0716BC7124D41393008C2147 /* green_bg@2x.png */; };
 		0716BC7524D41393008C2147 /* green_bg@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0716BC7224D41393008C2147 /* green_bg@3x.png */; };
 		0716BC7624D41393008C2147 /* green_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 0716BC7324D41393008C2147 /* green_bg.png */; };
@@ -134,7 +135,6 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		84E853329C5BCE81B4015125 /* Pods_LinKingSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CC83E2298941DC52B6F9426 /* Pods_LinKingSDK_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -147,19 +147,6 @@
 			remoteInfo = LinKingSDK;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		07293F1724C01BA2006A5623 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0716BC7124D41393008C2147 /* green_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green_bg@2x.png"; sourceTree = "<group>"; };
@@ -314,7 +301,7 @@
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				0752A82024C67FA700C177AA /* StoreKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				84E853329C5BCE81B4015125 /* Pods_LinKingSDK_Example.framework in Frameworks */,
+				070CD66124D7FCA00031650E /* Pods_LinKingSDK_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,7 +549,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				07293F1724C01BA2006A5623 /* Embed Frameworks */,
 				68558879FB5F20091FC427D7 /* [CP] Embed Pods Frameworks */,
 				F47BECE7DC6D4747D9C2628B /* [CP] Copy Pods Resources */,
 			);
@@ -981,6 +967,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LinKingSDK/LinKingSDK-Prefix.pch";
 				INFOPLIST_FILE = "LinKingSDK/LinKingSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1005,9 +992,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LinKingSDK/LinKingSDK-Prefix.pch";
 				INFOPLIST_FILE = "LinKingSDK/LinKingSDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				ONLY_ACTIVE_ARCH = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.peopleracingcar.linking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

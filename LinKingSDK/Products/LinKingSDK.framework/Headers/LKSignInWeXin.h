@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 NS_ASSUME_NONNULL_BEGIN
 @interface LKSignInWeXin : NSObject
-+ (instancetype _Nonnull)shared;
++ (instancetype _Nullable)shared;
 
 @property (nonatomic, copy) void(^WXOauthComplete)(NSString * _Nullable code, NSError * _Nullable error);
 @property (nonatomic, copy) void(^payComplete)(NSError * _Nullable error);

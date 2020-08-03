@@ -20,6 +20,7 @@ typedef NS_ENUM(NSInteger,LKPLATFORM) {
 NS_ASSUME_NONNULL_BEGIN
 @protocol LKAdManagerDelegate <NSObject>
 
+@optional
 ///  Banner加载是否成功
 /// @param platform 平台类型
 /// @param manager 平台管理对象

@@ -17,10 +17,15 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
 
+    /// 注册SDK
     [[LKSDKManager instance] registLinKingSDKAppID:@"test" withSecretkey:@"test" cmoplete:^(LKSDKManager * _Nonnull manager, NSError * _Nonnull error) {
+        // 加载启动类
         [[LKSDKManager instance] application:application didFinishLaunchingWithOptions:launchOptions];
+        /// 注册AF（如需使用AppsFlyer）
+        [[LKAFManager shared] registAppsFlyer];
     }];
-    [[LKAFManager shared] registAppsFlyer];
+    // 注册AF
+   // [[LKAFManager shared] registAppsFlyerDevKey:@"" appleAppID:@""];
     
     return YES;
 }
@@ -33,13 +38,14 @@
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url{
    return [[LKSDKManager instance] application:application handleOpenURL:url];
 }
+
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation{
   return  [[LKSDKManager instance] application:application openURL:url sourceApplication:sourceApplication annotation:annotation];
 }
 
+
 #pragma mark Universal Link
 - (BOOL)application:(UIApplication *)application continueUserActivity:(NSUserActivity *)userActivity restorationHandler:(void(^)(NSArray<id<UIUserActivityRestoring>> * __nullable restorableObjects))restorationHandler {
-    
     return [[LKSDKManager instance] application:application continueUserActivity:userActivity restorationHandler:restorationHandler];
 }
 // Report Push Notification attribution data for re-engagements
@@ -47,6 +53,8 @@
     [[LKSDKManager instance] application:application didReceiveRemoteNotification:userInfo fetchCompletionHandler:completionHandler];
     
 }
+
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.

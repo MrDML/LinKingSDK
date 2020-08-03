@@ -34,12 +34,6 @@ typedef enum {
 /// 取消支付回调
 - (void)storePayCancelPay;
 
-/// 请求商品列表接口
-/// @param request request 有效商品集合
-/// @param invalidProductIdentifiers 无效商品集合
-/// @param error error description
-- (void)productsRequest:(NSArray <LKProduct *>*_Nullable)request invalidProductIdentifiers:(NSArray<NSString *> *_Nullable)invalidProductIdentifiers didFailWithError:(NSError *_Nullable)error;
-
 @end
 typedef void (^IAPCompletionHandle)(SIAPPurchType type,NSData * _Nullable  data);
 NS_ASSUME_NONNULL_BEGIN
@@ -49,7 +43,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 + (instancetype)shared;
 /// 拉取所有商品信息
-- (void)requestProductDatasComplete:(void(^)(NSError *error, NSArray*results))complete;
+- (void)requestProductDatasComplete:(void(^_Nullable)(NSError * _Nullable error, NSArray*_Nullable products,NSArray * _Nullable invalidProducts))complete;
 //开始内购
 - (void)startPurchWithID:(NSString *)purchID parames:(NSDictionary *)parames completeHandle:(IAPCompletionHandle)handle;
 // 查询订阅

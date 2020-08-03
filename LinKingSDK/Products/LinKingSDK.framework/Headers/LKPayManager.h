@@ -40,8 +40,8 @@ typedef void (^_Nonnull INAPPPurchCompletionHandle)(INAPPPurchType type,NSData *
 
 
 /// 拉取所有商品信息(适用于苹果内购)
-/// @param complete 完成回调
-- (void)requestProductDatasComplete:(void(^)(NSError *error, NSArray*results))complete;
+/// @param complete products 有效商品集合，无效商品集合
+- (void)requestProductDatasComplete:(void(^_Nullable)(NSError * _Nullable error, NSArray*_Nullable products,NSArray * _Nullable invalidProducts))complete;
 
 /// 开始内购(适用于苹果内购)
 /// @param purchID 商品Id

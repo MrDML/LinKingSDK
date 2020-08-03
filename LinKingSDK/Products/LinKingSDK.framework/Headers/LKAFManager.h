@@ -23,8 +23,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, weak) id<LKAFManagerDelegate>delegate;
 /// 实例
 + (instancetype)shared;
-/// 注册AF (PS:SDK启动时会进行自动注册无需在进行调用)
+/// 注册AF
 - (void)registAppsFlyer;
+
+/// 注册AF
+/// @param devKey 平台key
+/// @param appleAppID 苹果应用Id
+- (void)registAppsFlyerDevKey:(NSString * _Nonnull)devKey appleAppID:(NSString * _Nonnull)appleAppID;
+
 /// 用于追踪游戏等级事件
 /// @param level 等级
 /// @param score 得分

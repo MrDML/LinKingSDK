@@ -13,8 +13,6 @@
 
 #define SDKConfBaseURL  @"http://lk-hkres.oss-cn-hongkong.aliyuncs.com"
 #define SDKConfPrefix @"/bgsys/matrix"
-#define SDKConfApi @"/tech/qmscsapp/iosconfig.json"
-#define SDKConfMatrix @"/tech/qmscsapp/ios/matrix_config_zh.json"
 // 数据存入沙盒的key
 #define SDKCONFKEY @"SDKCONF"
 #define SYSTEMSDKKEY  @"SYSTEMSDK"
