@@ -83,10 +83,10 @@
             @"amount":@"0.01"
         };
         
-        [[LKPayManager instance] showPayTypeAlterViewRootViewController:self parameters:params complete:^(NSError * _Nonnull error, BOOL success) {
-            NSLog(@"回调:error = %@",error);
-            NSLog(@"回调:error = %ld",(long)error.code);
-        }];
+    [[LKPayManager instance] showPayTypeAlterViewRootViewController:self parameters:params complete:^(NSDictionary * _Nonnull result, NSError * _Nonnull error) {
+        NSLog(@"回调:error = %@",error);
+        NSLog(@"回调:error = %ld",(long)error.code);
+    }];
 }
 
 

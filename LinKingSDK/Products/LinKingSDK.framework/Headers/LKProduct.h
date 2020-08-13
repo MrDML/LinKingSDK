@@ -22,6 +22,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy) NSString *localizedDescription;
 /// 价格
 @property (nonatomic,strong) NSDecimalNumber *price;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

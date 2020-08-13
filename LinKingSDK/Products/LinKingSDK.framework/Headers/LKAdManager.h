@@ -21,6 +21,13 @@ NS_ASSUME_NONNULL_BEGIN
 @protocol LKAdManagerDelegate <NSObject>
 
 @optional
+
+
+/// 渲染成功
+/// @param platform 平台类型
+/// @param manager 平台管理对象
+/// @param error 加载错误信息
+- (void)bannerAdViewRenderPlatform:(LKPLATFORM)platform subManager:(id)manager didRenderFail:(NSError *_Nullable)error;
 ///  Banner加载是否成功
 /// @param platform 平台类型
 /// @param manager 平台管理对象
@@ -39,6 +46,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param manager 平台管理对象
 - (void)bannerAdDidClosePlatform:(LKPLATFORM)platform subManager:(id)manager;
 
+
+
+/// 渲染成功
+/// @param platform 平台类型
+/// @param manager 平台管理对象
+/// @param error 加载错误信息
+- (void)rewardAdViewRenderPlatform:(LKPLATFORM)platform subManager:(id)manager didRenderFail:(NSError *_Nullable)error;
 
 /// 激励视频加载是否成功
 /// @param platform 平台类型
@@ -65,6 +79,13 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)rewardAdDidVisiblePlatform:(LKPLATFORM)platform subManager:(id)manager;
 
 
+
+
+/// 渲染成功
+/// @param platform 平台类型
+/// @param manager 平台管理对象
+/// @param error 加载错误信息
+- (void)interstitialAdViewRenderPlatform:(LKPLATFORM)platform subManager:(id)manager didRenderFail:(NSError *_Nullable)error;
 
 /// 插屏广告加载是否成功
 /// @param platform 平台类型

@@ -18,6 +18,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)instance;
 @property (nonatomic, strong) UIViewController *viewController;
 @property (nonatomic, weak) id <LKOauthManagerDelegate>delegate;
+@property (nonatomic,copy)void(^changeAccountCallBack)(void);
 @property (nonatomic,copy)void(^bindingAccountCompleteCallBack)(LKUser *user,NSError *error);
 /// Dashboard方式登录
 /// @param viewController 根控制器
@@ -27,7 +28,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param viewController 根控制器
 /// @param complete 完成登录回调
 - (void)loginApiWithRootViewController:(UIViewController *_Nullable)viewController complete:(void(^)(LKUser *user,NSError *error))complete;
-/// 隐藏仪表盘
+
+/// 显示仪表盘
+/// @param viewController 根控制器
+- (void)showFloatViewDashboard:(UIViewController *)viewController;
+// 隐藏仪表盘
 - (void)hiddenFloatViewDashboard;
 /// 退出登录
 - (void)logOutSDK;

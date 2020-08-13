@@ -14,5 +14,5 @@
 #import <LinKingSDK/LKUser.h>
 #import <LinKingSDK/LKProduct.h>
 #import <LinKingSDK/LKAFManager.h>
-
-
+#import <LinKingSDK/LKTitokExpressManager.h>
+#import <LinKingSDK/LKYLHAdManager.h>

@@ -53,13 +53,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIButton *button_quick;
 @property (weak, nonatomic) IBOutlet UIButton *button_ios;
 @property (weak, nonatomic) IBOutlet UIButton *button_weixin;
-
+@property (nonatomic, assign) NSInteger switchIndex;
 @property (assign, nonatomic) BOOL isNewUser;
 @property (assign, nonatomic) SignInStyle signInStyle;
 + (instancetype)instanceOauthView;
 - (void)showViewPassword;
 - (void)hiddenViewPassword;
 - (void)setLKSuperView:(UIView *)superView;
+- (void)updatePasswordView;
+- (void)updateCodeView;
 @end
 
 NS_ASSUME_NONNULL_END

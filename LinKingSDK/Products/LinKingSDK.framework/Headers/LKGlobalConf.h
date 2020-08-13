@@ -11,7 +11,7 @@
 #ifndef LKGlobalConf_h
 #define LKGlobalConf_h
 
-#define SDKConfBaseURL  @"http://lk-hkres.oss-cn-hongkong.aliyuncs.com"
+#define SDKConfBaseURL  @"http://lk-hzres.oss-cn-hangzhou.aliyuncs.com"
 #define SDKConfPrefix @"/bgsys/matrix"
 // 数据存入沙盒的key
 #define SDKCONFKEY @"SDKCONF"

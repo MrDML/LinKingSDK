@@ -47,6 +47,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param quantity 商品数量
 - (void)applicationAddGoodsCartWithPrice:(NSNumber *)price goodsType:(NSString *)type currency:(NSString *)currency goodsId:(NSString *)goodsId content:(NSString *)content quantity:(int)quantity;
 
+/// 完成购买
+/// @param price     购买产生的收入
+/// @param orderId 购买生成的订单ID
+/// @param receiptId 买家生成的收据ID
+- (void)applicationCompletedPurchase:(NSNumber *)price orderId:(NSString *)orderId receiptId:(NSString *)receiptId;
+
 /// 用于追踪特定商品的“添加到愿望清单”事件
 /// @param price 价格
 /// @param type 类型
@@ -156,6 +162,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// 用于追踪更新事件
 /// @param contentId 更新事件Id
 - (void)applicationWithContentId:(NSString *)contentId;
+
+
+/// 应用内事件
+/// @param eventName 事件名
+/// @param values 详细信息
+- (void)applicationTrackEvent:(NSString *)eventName withValues:(NSDictionary *)values;
+
 @end
 
 NS_ASSUME_NONNULL_END
