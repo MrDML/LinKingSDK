@@ -30,7 +30,7 @@ TODO: LinKingSDK is Overseas SDK Quick Integration Solution.
 
   s.ios.deployment_target = '9.0'
   
-#  s.static_framework = true
+  s.static_framework = true
 
   s.vendored_frameworks = "LinKingSDK/Products/LinKingSDK.framework"
   s.resources = "LinKingSDK/Assets/*.*"
@@ -45,9 +45,9 @@ TODO: LinKingSDK is Overseas SDK Quick Integration Solution.
   s.dependency 'Bugly', '~> 2.5.2'
   s.dependency 'AppsFlyerFramework', '~> 5.2.0'
   s.dependency 'GDTMobSDK', '~> 4.11.9'
-#  s.xcconfig = {
-#      'VALID_ARCHS' =>  'arm64 x86_64 armv7 i386',
-#  }
+  s.xcconfig = {
+      'VALID_ARCHS' =>  'arm64 x86_64 armv7',
+  }
   # s.resource_bundles = {
   #   'LinKingSDK' => ['LinKingSDK/Assets/*.png']
   # }
