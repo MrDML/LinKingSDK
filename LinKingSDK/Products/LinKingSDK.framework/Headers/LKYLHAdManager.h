@@ -15,7 +15,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///  横屏广告回调
 // 加载
-@property (nonatomic, copy) void(^bannerAdViewDidLoadCallBack)(NSError * _Nullable error);
+@property (nonatomic, copy) void(^bannerAdViewDidLoadCallBack)(void);
+@property (nonatomic, copy) void(^bannerAdViewDidLoadFailCallBack)(NSError * _Nullable error);
 // 展现
 @property (nonatomic, copy) void(^bannerAdViewVisibleCallBack)(void);
 // 点击
@@ -36,7 +37,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///  插屏广告回调
 // 加载
-@property (nonatomic, copy) void(^interstitialAdViewDidLoadCallBack)(NSError * _Nullable error);
+@property (nonatomic, copy) void(^interstitialAdViewDidLoadCallBack)(void);
+@property (nonatomic, copy) void(^interstitialAdViewDidLoadFailCallBack)(NSError * _Nullable error);
 // 插屏2.0广告曝光回调
 @property (nonatomic, copy) void(^interstitialAdViewVisibleCallBack)(void);
 //  插屏2.0广告点击回调
@@ -81,7 +83,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 //  激励广告回调
 // 加载
-@property (nonatomic, copy) void(^rewardVideoAdViewDidLoadCallBack)(NSError * _Nullable error);
+@property (nonatomic, copy) void(^rewardVideoAdViewDidLoadCallBack)(void);
+@property (nonatomic, copy) void(^rewardVideoAdViewDidLoadFailCallBack)(NSError * _Nullable error);
 // 视频数据下载成功回调，已经下载过的视频会直接回调
 @property (nonatomic, copy) void(^rewardVideoAdViewDownLoadCallBack)(void);
 // 即将展现

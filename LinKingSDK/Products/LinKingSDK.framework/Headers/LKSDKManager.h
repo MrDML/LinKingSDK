@@ -42,6 +42,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)instance;
 
 
+/// 注册数据分析
+- (void)registAnalysis;
 /// 注册SDK
 /// @param appId  平台分发的appId
 /// @param secretkey 平台分发的key

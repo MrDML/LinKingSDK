@@ -23,12 +23,12 @@ NS_ASSUME_NONNULL_BEGIN
 @optional
 
 
-/// 渲染成功
+
+///  加载成功
 /// @param platform 平台类型
 /// @param manager 平台管理对象
-/// @param error 加载错误信息
-- (void)bannerAdViewRenderPlatform:(LKPLATFORM)platform subManager:(id)manager didRenderFail:(NSError *_Nullable)error;
-///  Banner加载是否成功
+- (void)bannerAdDidLoadPlatform:(LKPLATFORM)platform subManager:(id)manager;
+///  加载失败
 /// @param platform 平台类型
 /// @param manager 平台管理对象
 /// @param error 加载错误信息
@@ -48,13 +48,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
-/// 渲染成功
+/// 加载成功
 /// @param platform 平台类型
 /// @param manager 平台管理对象
-/// @param error 加载错误信息
-- (void)rewardAdViewRenderPlatform:(LKPLATFORM)platform subManager:(id)manager didRenderFail:(NSError *_Nullable)error;
+- (void)rewardAdDidLoadPlatform:(LKPLATFORM)platform subManager:(id)manager;
 
-/// 激励视频加载是否成功
+/// 加载失败
 /// @param platform 平台类型
 /// @param manager 平台管理对象
 /// @param error 加载错误信息
@@ -81,13 +80,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 
-/// 渲染成功
+/// 加载成功
 /// @param platform 平台类型
 /// @param manager 平台管理对象
-/// @param error 加载错误信息
-- (void)interstitialAdViewRenderPlatform:(LKPLATFORM)platform subManager:(id)manager didRenderFail:(NSError *_Nullable)error;
+- (void)interstitialAdDidLoadPlatform:(LKPLATFORM)platform subManager:(id)manager;
 
-/// 插屏广告加载是否成功
+/// 加载失败
 /// @param platform 平台类型
 /// @param manager 平台管理对象
 /// @param error 错误信息
@@ -109,6 +107,42 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param manager 平台管理对象
 - (void)interstitialAdDidClosePlatform:(LKPLATFORM)platform subManager:(id)manager;
 
+
+
+
+
+/// 加载成功
+/// @param platform 平台类型
+/// @param manager 平台管理对象
+- (void)fullScreenAdDidLoadPlatform:(LKPLATFORM)platform subManager:(id)manager;
+/// 加载失败
+/// @param platform 平台类型
+/// @param manager 平台管理对象
+/// @param error 错误信息
+- (void)fullScreenAdPlatform:(LKPLATFORM)platform subManager:(id)manager didLoadFail:(NSError * _Nullable)error;
+/// 全屏视频赢得奖励
+/// @param platform 平台类型
+/// @param manager 平台管理对象
+/// @param error 错误信息
+- (void)fullScreenAdWinRewardPlatform:(LKPLATFORM)platform subManager:(id)manager withFail:(NSError * _Nullable)error;
+/// 全屏视频关闭
+/// @param platform 平台类型
+/// @param manager 平台管理对象
+- (void)fullScreenAdDidClosePlatform:(LKPLATFORM)platform subManager:(id)manager;
+
+/// 激励视频点击
+/// @param platform 平台类型
+/// @param manager 平台管理对象
+- (void)fullScreenAdDidClickPlatform:(LKPLATFORM)platform subManager:(id)manager;
+/// 全屏视频显示
+/// @param platform 平台类型
+/// @param manager 平台管理对象
+- (void)fullScreenAdDidVisiblePlatform:(LKPLATFORM)platform subManager:(id)manager;
+
+/// 全屏视频跳过
+/// @param platform 平台类型
+/// @param manager 平台管理对象
+- (void)fullScreenAdSkipPlatform:(LKPLATFORM)platform subManager:(id)manager;
 @end
 
 

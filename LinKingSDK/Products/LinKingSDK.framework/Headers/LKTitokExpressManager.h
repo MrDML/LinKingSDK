@@ -14,9 +14,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///  横屏广告回调
 // 加载
-@property (nonatomic, copy) void(^bannerAdViewDidLoadCallBack)(NSError * _Nullable error);
+@property (nonatomic, copy) void(^bannerAdViewDidLoadCallBack)(void);
+@property (nonatomic, copy) void(^bannerAdViewDidLoadFailCallBack)(NSError * _Nullable error);
 // 渲染
-@property (nonatomic, copy) void(^bannerAdViewRenderCallBack)(NSError * _Nullable error);
+@property (nonatomic, copy) void(^bannerAdViewRenderCallBack)(void);
+@property (nonatomic, copy) void(^bannerAdViewRenderFailCallBack)(NSError * _Nullable error);
 // 展现
 @property (nonatomic, copy) void(^bannerAdViewVisibleCallBack)(void);
 // 点击
@@ -28,9 +30,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///  插屏广告回调
 // 加载
-@property (nonatomic, copy) void(^interstitialAdViewDidLoadCallBack)(NSError * _Nullable error);
+@property (nonatomic, copy) void(^interstitialAdViewDidLoadCallBack)(void);
+@property (nonatomic, copy) void(^interstitialAdViewDidLoadFailCallBack)(NSError * _Nullable error);
 // 渲染
-@property (nonatomic, copy) void(^interstitialAdViewRenderCallBack)(NSError * _Nullable error);
+@property (nonatomic, copy) void(^interstitialAdViewRenderCallBack)(void);
+@property (nonatomic, copy) void(^interstitialAdViewRenderFailCallBack)(NSError * _Nullable error);
 // 展现
 @property (nonatomic, copy) void(^interstitialAdViewVisibleCallBack)(void);
 // 点击
@@ -44,9 +48,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///  激励广告回调
 // 加载
-@property (nonatomic, copy) void(^rewardAdViewDidLoadCallBack)(NSError * _Nullable error);
+@property (nonatomic, copy) void(^rewardAdViewDidLoadCallBack)(void);
+@property (nonatomic, copy) void(^rewardAdViewDidLoadFailCallBack)(NSError * _Nullable error);
 // 渲染
-@property (nonatomic, copy) void(^rewardAdViewRenderCallBack)(NSError * _Nullable error);
+@property (nonatomic, copy) void(^rewardAdViewRenderCallBack)(void);
+@property (nonatomic, copy) void(^rewardAdViewRenderFailCallBack)(NSError * _Nullable error);
 // 开始下载
 @property (nonatomic, copy) void(^rewardAdViewDidDownLoadCallBack)(void);
 // 将要展现
@@ -72,9 +78,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///  全屏广告的回调
 // 加载
-@property (nonatomic, copy) void(^fullscreenAdViewDidLoadCallBack)(NSError * _Nullable error);
+@property (nonatomic, copy) void(^fullscreenAdViewDidLoadCallBack)(void);
+@property (nonatomic, copy) void(^fullscreenAdViewDidLoadFailCallBack)(NSError * _Nullable error);
 // 渲染
-@property (nonatomic, copy) void(^fullscreenAdViewRenderCallBack)(NSError * _Nullable error);
+@property (nonatomic, copy) void(^fullscreenAdViewRenderCallBack)(void);
+@property (nonatomic, copy) void(^fullscreenAdViewRenderFailCallBack)(NSError * _Nullable error);
 // 开始下载
 @property (nonatomic, copy) void(^fullscreenAdViewDidDownLoadCallBack)(void);
 // 将要展现
