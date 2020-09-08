@@ -21,9 +21,11 @@ typedef enum {
     INAPPPurchVerSuccess = 4,    // 订单校验成功
     INAPPPurchNotArrow = 5,      // 不允许内购
     INAPPPurchNoGoods = 6,       // 没有商品
+    INAPPRestoredGoods = 7, // 已经购买过该商品
+    INAPPServiceFail = 8, // 网络故障
 }INAPPPurchType;
 NS_ASSUME_NONNULL_BEGIN
-typedef void (^_Nonnull INAPPPurchCompletionHandle)(INAPPPurchType type,NSData * _Nullable  data);
+typedef void (^_Nonnull INAPPPurchCompletionHandle)(INAPPPurchType type,NSError * _Nullable  data);
 @interface LKPayManager : NSObject
 @property (nonatomic, assign)PAYTYPE payType;
 
@@ -40,19 +42,14 @@ typedef void (^_Nonnull INAPPPurchCompletionHandle)(INAPPPurchType type,NSData *
 
 
 /// 拉取所有商品信息(适用于苹果内购)
-/// @param complete products 有效商品集合，无效商品集合
-- (void)requestProductDatasComplete:(void(^_Nullable)(NSError * _Nullable error, NSArray*_Nullable products,NSArray * _Nullable invalidProducts))complete;
+/// @param complete products 品集合
+- (void)requestProductDatasComplete:(void(^_Nullable)(NSError * _Nullable error, NSArray*_Nullable products))complete;
 
 /// 开始内购(适用于苹果内购)
 /// @param purchID 商品Id
 /// @param parames 内购参数
 /// @param handle 内购完成回调
 - (void)startPurchWithID:(NSString *)purchID parames:(NSDictionary *)parames completeHandle:(INAPPPurchCompletionHandle)handle;
-
-/// 查询订阅(适用于苹果内购)
-/// @param productId 商品Id
-/// @param complete 完成回调
-- (void)querysubscribeProduct:(NSString *)productId Complete:(void(^)(NSError *error, NSDictionary*results))complete;
 
 
 @end

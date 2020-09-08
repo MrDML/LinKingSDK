@@ -12,7 +12,8 @@
 #import <LinKingSDK/LKPointManager.h>
 #import <LinKingSDK/LKAdManager.h>
 #import <LinKingSDK/LKUser.h>
-#import <LinKingSDK/LKProduct.h>
 #import <LinKingSDK/LKAFManager.h>
 #import <LinKingSDK/LKTitokExpressManager.h>
 #import <LinKingSDK/LKYLHAdManager.h>
+#import <LinKingSDK/LKGoods.h>
+

@@ -52,6 +52,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
 
+- (void)applicationWillTerminate:(UIApplication *)application;
+
 - (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url;
 
 - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation;

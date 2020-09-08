@@ -26,6 +26,7 @@
 #import "LKSystem.h"
 #import "LinKingSDK.h"
 #import "LKSDKManager.h"
+#import "LKGoods.h"
 #import "LKProduct.h"
 #import "LKUser.h"
 #import "LKAlterLoginApi.h"
@@ -97,7 +98,9 @@
 #import "LKSignInWeXin.h"
 #import "LKAliPay.h"
 #import "LKApplePay.h"
+#import "LKApplePayManager.h"
 #import "LKPayManager.h"
+#import "LKSandBoxHelper.h"
 #import "LKWeChatPay.h"
 #import "ActivityTracking.h"
 #import "MMMaterialDesignSpinner.h"
@@ -110,6 +113,7 @@
 #import "LKNetUtils.h"
 #import "LKTextView.h"
 #import "LKUUID.h"
+#import "LKVersion.h"
 #import "MONActivityIndicatorView.h"
 
 FOUNDATION_EXPORT double LinKingSDKVersionNumber;

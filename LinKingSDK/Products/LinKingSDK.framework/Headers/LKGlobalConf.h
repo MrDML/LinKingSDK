@@ -11,9 +11,7 @@
 #ifndef LKGlobalConf_h
 #define LKGlobalConf_h
 
-#define SDKConfBaseURL  @"http://lk-hzres.oss-cn-hangzhou.aliyuncs.com"
-#define SDKConfPrefix @"/bgsys/matrix"
-// 数据存入沙盒的key
+
 #define SDKCONFKEY @"SDKCONF"
 #define SYSTEMSDKKEY  @"SYSTEMSDK"
 #define USERKEY    @"USER"
@@ -49,14 +47,3 @@
 #endif /* LKGlobalConf_h */
 
 
-//#if __has_include(<Toast/Toast.h>)
-//#import <Toast/Toast.h>
-//#else
-//#import "UIView+Toast.h"
-//#endif
-
-//#if __has_include(<TZImagePickerController/TZImagePickerController.h>)
-//#import <TZImagePickerController/TZImagePickerController.h>
-//#else
-//#import "TZImagePickerController.h"
-//#endif
