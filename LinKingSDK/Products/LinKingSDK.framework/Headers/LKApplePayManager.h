@@ -21,7 +21,18 @@ typedef enum {
 }PurchType;
 NS_ASSUME_NONNULL_BEGIN
 typedef void (^CompletionHandle)(PurchType type,NSError * _Nullable error);
+
+@protocol LKApplePayManagerDelegate <NSObject>
+
+@optional
+/// 创建订单成功回调
+- (void)storePayCreateOrderId:(NSString * _Nullable)orderId withError:(NSError *_Nullable)error;
+
+@end
+
 @interface LKApplePayManager : NSObject
+
+@property (nonatomic, weak) id<LKApplePayManagerDelegate>delegate;
 
 + (instancetype)shared;
 /**
