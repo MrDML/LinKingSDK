@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, copy)void(^readProtocolAction)(UIButton *sender);
 @property(nonatomic, copy)void(^thirdLoginAction)(UIButton *sender);
 @property(nonatomic, copy)void(^closeAlterViewCallBack)(void);
-@property(nonatomic, copy)void(^useAgreementCallBack)(BOOL isAgreement);
+@property(nonatomic, copy)void(^useAgreementCallBack)(BOOL isAgreement,UIButton *sender);
 
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *layoutHeight;
 @property (weak, nonatomic) IBOutlet UIImageView *imageViewHeader;
