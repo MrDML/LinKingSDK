@@ -48,10 +48,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIImageView *imageView_close_two;
 
 @property (weak, nonatomic) IBOutlet UIButton *button_protocol;
+@property (weak, nonatomic) IBOutlet UIView *view_apple;
+
 @property (weak, nonatomic) IBOutlet UIButton *button_check;
 @property (weak, nonatomic) IBOutlet UIButton *button_login;
 @property (weak, nonatomic) IBOutlet UIButton *button_quick;
-@property (weak, nonatomic) IBOutlet UIButton *button_ios;
 @property (weak, nonatomic) IBOutlet UIButton *button_weixin;
 @property (nonatomic, assign) NSInteger switchIndex;
 @property (assign, nonatomic) BOOL isNewUser;
