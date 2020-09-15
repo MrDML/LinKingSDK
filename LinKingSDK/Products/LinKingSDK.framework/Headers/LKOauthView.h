@@ -49,6 +49,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (weak, nonatomic) IBOutlet UIButton *button_protocol;
 @property (weak, nonatomic) IBOutlet UIView *view_apple;
+@property (weak, nonatomic) IBOutlet UIView *view_weixin;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *layout_right_space;
 
 @property (weak, nonatomic) IBOutlet UIButton *button_check;
 @property (weak, nonatomic) IBOutlet UIButton *button_login;
