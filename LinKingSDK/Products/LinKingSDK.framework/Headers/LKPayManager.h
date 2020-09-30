@@ -50,6 +50,8 @@ typedef void (^_Nonnull INAPPPurchCompletionHandle)(INAPPPurchType type,NSError 
 /// @param parames 内购参数
 /// @param handle 内购完成回调
 - (void)startPurchWithID:(NSString *)purchID parames:(NSDictionary *)parames completeHandle:(INAPPPurchCompletionHandle)handle;
+// 查询订阅
+- (void)querysubscribeProduct:(NSString *)productId complete:(void(^)(NSError *error, NSDictionary*results))complete;
 
 
 @end
