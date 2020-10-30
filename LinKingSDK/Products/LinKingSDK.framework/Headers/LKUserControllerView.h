@@ -27,6 +27,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, copy)void(^fixIconAction)(UIButton *sender);
 @property(nonatomic, copy)void(^selectItemAction)(UIButton *sender);
 @property(nonatomic, copy)void(^changeAccountAction)(UIButton *sender);
+@property (weak, nonatomic) IBOutlet UIView *view_msg_circle;
+
 + (instancetype)instanceUserControllerView;
 @end
 
