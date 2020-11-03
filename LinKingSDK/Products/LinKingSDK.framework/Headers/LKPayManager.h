@@ -38,7 +38,7 @@ typedef void (^_Nonnull INAPPPurchCompletionHandle)(INAPPPurchType type,NSError 
 /// @param parames 支付参数
 /// @param complete 支付完成回调(ps:error error=nill 支付成功 error code:6001取消支付，error code:4000支付失败)
 //- (void)showPayTypeAlterViewRootViewController:(UIViewController *)viewController parameters:(NSDictionary *)parames complete:(void(^)(NSError *error, BOOL success))complete;
-- (void)showPayTypeAlterViewRootViewController:(UIViewController *)viewController parameters:(NSDictionary *)parames complete:(void(^)(NSDictionary * result,NSError *error ))complete;
+- (void)showPayTypeAlterViewRootViewController:(UIViewController *)viewController parameters:(NSDictionary *)parames complete:(void(^)(NSDictionary * _Nullable result,NSError * _Nullable error ))complete;
 
 
 /// 拉取所有商品信息(适用于苹果内购)

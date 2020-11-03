@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LinKingSDK'
-  s.version          = '0.1.28'
+  s.version          = '0.1.29'
   s.summary          = 'LinKingSDK Quick Integration Solution'
 
 # This description is used to generate tags and improve search results.
@@ -37,7 +37,7 @@ TODO: LinKingSDK is Overseas SDK Quick Integration Solution.
   s.dependency 'SDWebImage'
   s.dependency 'IQKeyboardManager', '~> 6.5.5'
   s.dependency 'TPKeyboardAvoiding', '~> 1.3.4'
-  s.dependency 'TZImagePickerController', '~> 3.4.0'
+  s.dependency 'TZImagePickerController', '~> 3.5.1'
   s.dependency 'Toast', '~> 4.0.0'
   s.dependency 'WechatOpenSDK'
   s.dependency  'AlipaySDK-iOS'
