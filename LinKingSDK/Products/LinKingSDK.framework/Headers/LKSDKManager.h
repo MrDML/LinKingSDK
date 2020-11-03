@@ -25,7 +25,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LKSDKManager : NSObject
 
-@property (nonatomic, copy) void(^initializeSDKCallBack)(LKSDKManager *manager,NSError *error);
+@property (nonatomic, copy) void(^initializeSDKCallBack)(LKSDKManager * _Nullable manager,NSError * _Nullable error);
 /// 授权管理类
 @property (nonatomic, strong,readonly) LKOauthManager *oauthManager;
 /// 支付管理类
@@ -48,9 +48,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param appId  平台分发的appId
 /// @param secretkey 平台分发的key
 /// @param complete 完成注册的回调
-- (void)registLinKingSDKAppID:(NSString * _Nonnull)appId withSecretkey:(NSString * _Nonnull)secretkey cmoplete:(void(^_Nonnull)(LKSDKManager *manager,NSError *error))complete;
+- (void)registLinKingSDKAppID:(NSString * _Nonnull)appId withSecretkey:(NSString * _Nonnull)secretkey cmoplete:(void(^_Nonnull)(LKSDKManager *_Nullable manager,NSError * _Nullable error))complete;
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions;
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *_Nullable)launchOptions;
 
 - (void)applicationWillTerminate:(UIApplication *)application;
 

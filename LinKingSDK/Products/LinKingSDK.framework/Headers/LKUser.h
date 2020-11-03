@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 用户唯一id标识
 @property (nonatomic, copy) NSString *id;
-/// 真实年龄
+/// 真实姓名
 @property (nonatomic, copy) NSString *real_name;
 /// 手机号码
 @property (nonatomic, copy) NSString *phone;

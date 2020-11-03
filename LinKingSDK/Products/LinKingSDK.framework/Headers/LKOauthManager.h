@@ -19,16 +19,15 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIViewController *viewController;
 @property (nonatomic, weak) id <LKOauthManagerDelegate>delegate;
 @property (nonatomic,copy)void(^changeAccountCallBack)(void);
-@property (nonatomic,copy)void(^bindingAccountCompleteCallBack)(LKUser *user,NSError *error);
-/// Dashboard方式登录
+@property (nonatomic,copy)void(^bindingAccountCompleteCallBack)(LKUser * _Nullable user,NSError *_Nullable error);
+/// Dashboard授权面板
 /// @param viewController 根控制器
 /// @param complete 完成登录回调
-- (void)loginWithDashboardRootViewController:(UIViewController *)viewController complete:(void(^)(LKUser *user,NSError *error))complete;
+- (void)loginWithDashboardRootViewController:(UIViewController *)viewController complete:(void(^)(LKUser * _Nullable user,NSError *_Nullable error))complete;
 /// API方式登录
 /// @param viewController 根控制器
 /// @param complete 完成登录回调
-- (void)loginApiWithRootViewController:(UIViewController *_Nullable)viewController complete:(void(^)(LKUser *user,NSError *error))complete;
-
+- (void)loginApiWithRootViewController:(UIViewController *_Nullable)viewController complete:(void(^)(LKUser * _Nullable user,NSError * _Nullable error))complete;
 /// 显示仪表盘
 /// @param viewController 根控制器
 - (void)showFloatViewDashboard:(UIViewController *)viewController;
