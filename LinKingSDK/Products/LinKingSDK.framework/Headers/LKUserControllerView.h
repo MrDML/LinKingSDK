@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface LKUserControllerView : UIView
+@property (strong, nonatomic)  UIView *contentView;
 @property (weak, nonatomic) IBOutlet UIView *view_icon;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView_icon;
 @property (weak, nonatomic) IBOutlet UIButton *button_close;

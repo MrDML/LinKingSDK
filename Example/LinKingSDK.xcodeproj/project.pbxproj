@@ -964,6 +964,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MKRFK77PRR;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LinKingSDK/LinKingSDK-Prefix.pch";
 				INFOPLIST_FILE = "LinKingSDK/LinKingSDK-Info.plist";
@@ -989,6 +990,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MKRFK77PRR;
+				ENABLE_BITCODE = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LinKingSDK/LinKingSDK-Prefix.pch";
 				INFOPLIST_FILE = "LinKingSDK/LinKingSDK-Info.plist";
