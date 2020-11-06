@@ -41,10 +41,29 @@ TODO: LinKingSDK is Overseas SDK Quick Integration Solution.
   s.dependency 'Toast', '~> 4.0.0'
   s.dependency 'WechatOpenSDK'
   s.dependency  'AlipaySDK-iOS'
+  s.dependency 'AppsFlyerFramework', '~> 5.2.0'
+  s.dependency 'AnyThinkiOS'
+  s.dependency 'AnyThinkiOS/AnyThinkTouTiaoAdapter'
+  s.dependency 'AnyThinkiOS/AnyThinkGDTAdapter'
+  s.dependency 'AnyThinkiOS/AnyThinkMintegralAdapter'
+  s.dependency 'AnyThinkiOS/AnyThinkKSAdapter'
+  # Mintegral
+  s.dependency 'MintegralAdSDK/NativeAd'
+  s.dependency 'MintegralAdSDK/BidNativeAd'
+  s.dependency 'MintegralAdSDK/RewardVideoAd'
+  s.dependency 'MintegralAdSDK/InterstitialVideoAd'
+  s.dependency 'MintegralAdSDK/InterstitialAd'
+  s.dependency 'MintegralAdSDK/InterActiveAd'
+  s.dependency 'MintegralAdSDK/BannerAd'
+  s.dependency 'MintegralAdSDK/SplashAd'
+  s.dependency 'MintegralAdSDK/NativeAdvancedAd'
+  # 穿山甲
   s.dependency 'Bytedance-UnionAD', '~> 2.9.5.8'
   s.dependency 'Bugly', '~> 2.5.2'
-  s.dependency 'AppsFlyerFramework', '~> 5.2.0'
+  # 优良汇
   s.dependency 'GDTMobSDK', '~> 4.11.9'
+  # 快手
+  s.dependency 'KSAdSDK', '~> 3.3.3'
   s.xcconfig = {
       'VALID_ARCHS' =>  'arm64 x86_64 armv7',
   }
