@@ -14,14 +14,14 @@
 typedef NS_ENUM(NSInteger,LKPLATFORM) {
     LKPLATFORM_NONE,
     LKPLATFORM_Titok,
-    LKPLATFORM_YLH
+    LKPLATFORM_YLH,
+    LKPLATFORM_TopOn
 };
 
 NS_ASSUME_NONNULL_BEGIN
 @protocol LKAdManagerDelegate <NSObject>
 
 @optional
-
 
 
 ///  加载成功
@@ -143,6 +143,58 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param platform 平台类型
 /// @param manager 平台管理对象
 - (void)fullScreenAdSkipPlatform:(LKPLATFORM)platform subManager:(id)manager;
+
+
+
+
+/// MARK: TOPON
+
+-(void)didFinishLoadingADWithPlacementID:(NSString *)placementID;
+
+-(void)didFailToLoadADWithPlacementID:(NSString* )placementID error:(NSError *)error;
+
+- (void)rewardedVideoDidClickForPlacementID:(NSString *)placementID extra:(NSDictionary *)extra;
+
+- (void)rewardedVideoDidCloseForPlacementID:(NSString *)placementID rewarded:(BOOL)rewarded extra:(NSDictionary *)extra;
+
+- (void)rewardedVideoDidEndPlayingForPlacementID:(NSString *)placementID extra:(NSDictionary *)extra;
+
+- (void)rewardedVideoDidFailToPlayForPlacementID:(NSString *)placementID error:(NSError *)error extra:(NSDictionary *)extra;
+
+- (void)rewardedVideoDidRewardSuccessForPlacemenID:(NSString *)placementID extra:(NSDictionary *)extra;
+
+- (void)rewardedVideoDidStartPlayingForPlacementID:(NSString *)placementID extra:(NSDictionary *)extra;
+
+
+
+- (void)interstitialDidClickForPlacementID:(NSString *)placementID extra:(NSDictionary *)extra;
+
+- (void)interstitialDidCloseForPlacementID:(NSString *)placementID extra:(NSDictionary *)extra;
+
+- (void)interstitialDidEndPlayingVideoForPlacementID:(NSString *)placementID extra:(NSDictionary *)extra;
+
+- (void)interstitialDidFailToPlayVideoForPlacementID:(NSString *)placementID error:(NSError *)error extra:(NSDictionary *)extra;
+- (void)interstitialDidShowForPlacementID:(NSString *)placementID extra:(NSDictionary *)extra;
+
+- (void)interstitialDidStartPlayingVideoForPlacementID:(NSString *)placementID extra:(NSDictionary *)extra;
+
+- (void)interstitialFailedToShowForPlacementID:(NSString *)placementID error:(NSError *)error extra:(NSDictionary *)extra;
+
+
+- (void)bannerViewDidAutoRefreshWithPlacement:(NSString *)placementID extra:(NSDictionary *)extra;
+
+- (void)bannerViewDidClickWithPlacementID:(NSString *)placementID extra:(NSDictionary *)extra;
+
+- (void)bannerViewDidCloseWithPlacementID:(NSString *)placementID extra:(NSDictionary *)extra;
+
+- (void)bannerViewDidShowAdWithPlacementID:(NSString *)placementID extra:(NSDictionary *)extra;
+
+- (void)bannerViewDidTapCloseButtonWithPlacementID:(NSString *)placementID extra:(NSDictionary *)extra;
+
+- (void)bannerViewDidfailedToAutoRefreshWithPlacementID:(NSString *)placementID error:(NSError *)error;
+
+
+
 @end
 
 
@@ -151,10 +203,16 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong,readonly) LKTitokExpressManager *titoManager;
 @property (nonatomic, strong,readonly) LKYLHAdManager *YLHManager;
 @property (nonatomic, weak) id <LKAdManagerDelegate>delegate;
+
+
+
 + (instancetype)shared;
 
 /// 注册广告
 - (void)registerAd;
+
+/// 注册广告
+- (void)registerAggregateAd;
 
 /// 初始化Banner广告
 - (void)initializationBannerRootViewController:(UIViewController *)viewController superView:(UIView *)superView platform:(LKPLATFORM)platform;
@@ -178,6 +236,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// 展示全屏广告
 - (void)showFullScreenVideoAd;
 
+
+- (BOOL)bannerViewAdReady;
+- (BOOL)interstitialAdReady;
+- (BOOL)rewardVideoAdReady;
+- (BOOL)fullScreenVideoAdReady;
 @end
 
 NS_ASSUME_NONNULL_END
