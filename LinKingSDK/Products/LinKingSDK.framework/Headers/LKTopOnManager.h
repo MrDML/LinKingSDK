@@ -37,7 +37,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface LKTopOnManager : NSObject
 
-@property (nonatomic, copy) void(^topOnAdDidFinishLoadingCallBack)(NSString *_Nullable placementID);
+@property (nonatomic, copy) void(^topOnAdDidFinishLoadingCallBack)(NSString *_Nullable placementID,NSString *adType);
 @property (nonatomic, copy) void(^topOnAdDidFailToLoadCallBack)(NSString * _Nullable placementID,NSError * _Nullable error);
 
 @property (nonatomic, copy) void(^rewardedVideoDidClickCallBack)(NSString *_Nullable placementID,NSDictionary *_Nullable extra);
@@ -85,6 +85,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)showTopOnBanner;
 /// 移除banner
 - (void)removeTopOnBannerViewFromSuperView;
+- (BOOL)bannerViewAdReady;
+- (BOOL)interstitialAdReady;
+- (BOOL)rewardVideoAdReady;
+
 @end
 
 

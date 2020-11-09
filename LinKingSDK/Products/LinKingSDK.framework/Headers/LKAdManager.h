@@ -18,6 +18,13 @@ typedef NS_ENUM(NSInteger,LKPLATFORM) {
     LKPLATFORM_TopOn
 };
 
+typedef NS_ENUM(NSInteger,LKTOPONAdTYPE) {
+    LKTOPONAdTYPE_NONE,
+    LKTOPONAdTYPE_Banner,
+    LKTOPONAdTYPE_Interstitial,
+    LKTOPONAdTYPE_RewardVideo
+};
+
 NS_ASSUME_NONNULL_BEGIN
 @protocol LKAdManagerDelegate <NSObject>
 
@@ -149,7 +156,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// MARK: TOPON
 
--(void)didFinishLoadingADWithPlacementID:(NSString *)placementID;
+-(void)didFinishLoadingADWithPlacementID:(NSString *)placementID withAdType:(LKTOPONAdTYPE)adType;
 
 -(void)didFailToLoadADWithPlacementID:(NSString* )placementID error:(NSError *)error;
 
@@ -237,10 +244,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)showFullScreenVideoAd;
 
 
+/// 适用于聚合广告
 - (BOOL)bannerViewAdReady;
 - (BOOL)interstitialAdReady;
 - (BOOL)rewardVideoAdReady;
-- (BOOL)fullScreenVideoAdReady;
+
 @end
 
 NS_ASSUME_NONNULL_END
