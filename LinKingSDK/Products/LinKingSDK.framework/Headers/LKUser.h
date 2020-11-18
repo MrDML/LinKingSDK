@@ -34,6 +34,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *nick_name;
 /// 第三方编号
 @property (nonatomic, copy) NSString *third_id;
+
+@property (nonatomic, copy) NSString *third_type;
 /// 用户头像
 @property (nonatomic, copy) NSString *head_icon;
 /// token
