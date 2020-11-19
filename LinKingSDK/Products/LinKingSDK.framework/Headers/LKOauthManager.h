@@ -11,10 +11,9 @@
 NS_ASSUME_NONNULL_BEGIN
 @class LKUser;
 @protocol LKOauthManagerDelegate <NSObject>
-
 /// 退出登录
 - (void)logoutSDKCallback;
-
+- (void)changeAccountCallBack;
 @end
 
 @interface LKOauthManager : NSObject
