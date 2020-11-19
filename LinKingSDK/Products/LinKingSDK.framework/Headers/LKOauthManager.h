@@ -20,7 +20,6 @@ NS_ASSUME_NONNULL_BEGIN
 + (instancetype)instance;
 @property (nonatomic, strong) UIViewController *viewController;
 @property (nonatomic, weak) id <LKOauthManagerDelegate>delegate;
-@property (nonatomic,copy)void(^changeAccountCallBack)(void);
 @property (nonatomic,copy)void(^bindingAccountCompleteCallBack)(LKUser * _Nullable user,NSError *_Nullable error);
 /// Dashboard授权面板
 /// @param viewController 根控制器
