@@ -15,6 +15,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString       *pay_type;
 @property (nonatomic, strong) NSNumber     *mode_debug;
 @property (nonatomic, strong) NSNumber     *wsy;
+@property (nonatomic, strong) NSNumber       *real_name_switch;
 @property (nonatomic, strong) NSDictionary *sdk_config;
 @property (nonatomic, strong) NSDictionary *wx_config;
 @property (nonatomic, strong) NSDictionary *auth_config;
