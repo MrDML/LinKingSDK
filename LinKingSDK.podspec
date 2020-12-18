@@ -61,7 +61,7 @@ TODO: LinKingSDK is Overseas SDK Quick Integration Solution.
   s.dependency 'Bytedance-UnionAD', '~> 2.9.5.8'
   s.dependency 'Bugly', '~> 2.5.2'
   # 优良汇
-  s.dependency 'GDTMobSDK', '~> 4.11.9'
+  s.dependency 'GDTMobSDK', '~> 4.12.1'
   # 快手
   s.dependency 'KSAdSDK', '~> 3.3.3'
   s.xcconfig = {
