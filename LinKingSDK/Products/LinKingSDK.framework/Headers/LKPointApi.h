@@ -23,6 +23,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param values <#values description#>
 /// @param complete <#complete description#>
 + (void)adPointEventName:(NSString * _Nullable)eventName withValues:(NSDictionary * _Nullable)values complete:(void(^_Nullable)(NSError *error))complete;
+
+
+
+/// 接口错误收集
+/// @param title 接口异常点
+/// @param content 报错信息
+/// @param complete 回调
++ (void)logReportServer:(NSString *)title conctent:(NSString *)content complete:(void(^_Nullable)(NSError *_Nullableerror))complete;
 @end
 
 NS_ASSUME_NONNULL_END
