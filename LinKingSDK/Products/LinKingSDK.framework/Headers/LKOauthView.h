@@ -63,6 +63,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIButton *button_protocol;
 @property (weak, nonatomic) IBOutlet UIView *view_apple;
 @property (weak, nonatomic) IBOutlet UIView *view_weixin;
+@property (weak, nonatomic) IBOutlet UIView *view_weixin_second;
+
 
 @property (weak, nonatomic) IBOutlet UIView *view_third_oauth;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *layout_third_oauth_height;
@@ -75,6 +77,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property (weak, nonatomic) IBOutlet UIButton *button_quick;
 @property (weak, nonatomic) IBOutlet UIButton *button_weixin;
+@property (weak, nonatomic) IBOutlet UIButton *button_weixin_second;
 
 @property (nonatomic, assign) NSInteger switchIndex;
 @property (assign, nonatomic) BOOL isNewUser;
