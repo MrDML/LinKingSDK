@@ -31,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param appleAppID 苹果应用Id
 - (void)registAppsFlyerDevKey:(NSString * _Nonnull)devKey appleAppID:(NSString * _Nonnull)appleAppID;
 
-/// 用于追踪游戏等级事件
+/// 用于追踪游戏等级事件 --GAME
 /// @param level 等级
 /// @param score 得分
 - (void)afLogLevel:(NSInteger)level score:(CGFloat)score;
@@ -63,10 +63,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)afLogAddWishlistWithPrice:(NSNumber *)price goodsType:(NSString *)type goodsId:(NSString *)goodsId content:(NSString *)content currency:(NSString *)currency quantity:(int)quantity;
 
 /// 用于追踪用户注册方式
-/// @param style 注册方式
+/// @param style 注册方式 --GAME
 - (void)afLogCompleteRegistrationStyle:(NSString *)style;
 
-/// 用于追踪教程完成情况
+/// 用于追踪教程完成情况 --GAME
 /// @param success 是否成功
 /// @param userId 用户id
 /// @param desc 描述
@@ -81,7 +81,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param currency 货币类型
 - (void)afLogInitiatedCheckoutWithPrice:(NSNumber *)price contentType:(NSString *)contentType contentId:(NSString *)contentId content:(NSString *)content  quantity:(int)quantity payment:(NSString *)payment currency:(NSString *)currency;
 
-/// 用于追踪购买事件（及相关收入）
+/// 用于追踪购买事件（及相关收入） --GAME
 /// @param price 价格
 /// @param type 订单了类型
 /// @param currency 货币类型 USD
@@ -89,6 +89,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param desc 描述
 /// @param quantity 数量
 - (void)afLogPurchaseWithPrice:(NSNumber *)price type:(NSString *)type currency:(NSString *)currency orderId:(NSString *)orderId desc:(NSString *)desc quantity:(int)quantity;
+
+///  奖赏领取 --GAME
+/// @param type 用户领取的奖赏类型 示例值 coins
+- (void)afLogBonusClaimed:(NSString *)type;
 
 /// 用于追踪付费订阅购买
 /// @param price 价格
@@ -143,17 +147,17 @@ NS_ASSUME_NONNULL_BEGIN
 /// 用于追踪应用中展示广告的展示次数
 - (void)afLogAdView:(NSString *)style;
 
-/// 用于追踪分享事件
+/// 用于追踪分享事件 --GAME
 /// @param desc 分享描述
 - (void)afLogShareDesc:(NSString*)desc;
 
-/// 用于追踪邀请（社交）事件
+/// 用于追踪邀请（社交）事件 --GAME
 - (void)afLogInvite;
 
 ///  用于追踪用户的重参与事件
 - (void)afLogActive;
 
-/// 用于追踪用户登录事件
+/// 用于追踪用户登录事件 --GAME
 - (void)afLogLoginStyle:(NSString *)style;
 
 /// 从推送通知打开 用于追踪从推送通知打开应用的事件
