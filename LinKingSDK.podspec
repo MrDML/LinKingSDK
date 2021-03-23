@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LinKingSDK'
-  s.version          = '0.1.68'
+  s.version          = '0.1.69'
   s.summary          = 'LinKingSDK Quick Integration Solution'
 
 # This description is used to generate tags and improve search results.
@@ -39,7 +39,6 @@ TODO: LinKingSDK is Overseas SDK Quick Integration Solution.
   s.dependency 'TPKeyboardAvoiding', '~> 1.3.4'
   s.dependency 'TZImagePickerController', '~> 3.5.1'
   s.dependency 'Toast', '~> 4.0.0'
-  s.dependency 'WechatOpenSDK'
   s.dependency 'AppsFlyerFramework', '~> 6.1.4'
   s.dependency 'AnyThinkiOS','5.7.11'
   s.dependency 'AnyThinkiOS/AnyThinkKSAdapter','5.7.11'
