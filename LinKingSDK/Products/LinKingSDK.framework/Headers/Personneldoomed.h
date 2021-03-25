@@ -31,6 +31,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param appleAppID 苹果应用Id
 - (void)registAppsFlyerDevKey:(NSString * _Nonnull)devKey appleAppID:(NSString * _Nonnull)appleAppID;
 
+/// 注册AF
+/// @param devKey 平台key
+/// @param appleAppID 苹果应用Id
+- (void)registAppsFlyerDevKey:(NSString * _Nonnull)devKey appleAppID:(NSString * _Nonnull)appleAppID isDebug:(BOOL)isDebug;
+
 /// 用于追踪游戏等级事件 --GAME
 /// @param level 等级
 /// @param score 得分

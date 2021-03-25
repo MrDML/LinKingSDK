@@ -54,7 +54,6 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)rewardAdWinReward;
 
 
-
 /// 插屏广告加载失败
 /// @param error 错误信息
 - (void)interstitialAdDidLoadFail:(NSError * _Nullable)error;
@@ -66,6 +65,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)interstitialAdDidVisible;
 
 
+/// 广告加载成功
+- (void)adDidFinishLoading:(LKADTYPE)type;
 /// TopOn 广告加载失败
 - (void)topOnAdDidFailToLoadFail:(NSError * _Nullable)error;
 
@@ -82,12 +83,18 @@ NS_ASSUME_NONNULL_BEGIN
 /// 注册广告
 - (void)Heightenrelapse;
 
-/// 展示广告
+/// 展示横屏
+- (void)showBanner;
+/// 展现插屏
+- (void)showInterstitialAd;
+/// 展示激励视频广告
+- (void)showRewardVideoAd;
+
+/// 初始化广告
 /// @param type 广告类型
 /// @param viewController 控制器
 /// @param superView 视图
-- (void)adShow:(LKADTYPE)type rootViewController:(UIViewController * _Nonnull)viewController superView:(UIView * _Nullable)superView;
-
+- (void)initAD:(LKADTYPE)type rootViewController:(UIViewController * _Nonnull)viewController superView:(UIView * _Nullable)superView;
 
 @end
 
