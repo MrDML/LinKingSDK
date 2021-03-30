@@ -3,7 +3,7 @@
 //  LinKingSDK
 //
 //  Created by leoan on 2020/7/27.
-//  Copyright © 2020 dml1630@163.com. All rights reserved.
+//  Copyright © 2020 . All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

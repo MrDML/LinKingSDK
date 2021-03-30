@@ -3,7 +3,7 @@
 //  LinKingSDK
 //
 //  Created by MrDML on 2020/8/1.
-//  Copyright © 2020 dml1630@163.com. All rights reserved.
+//  Copyright © 2020 . All rights reserved.
 //
 #import <Foundation/Foundation.h>
 #import <LinKingSDK/Boilercountry.h>

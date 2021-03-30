@@ -3,7 +3,7 @@
 //  LinKingSDK
 //
 //  Created by leoan on 2020/8/11.
-//  Copyright © 2020 dml1630@163.com. All rights reserved.
+//  Copyright © 2020 . All rights reserved.
 //
 
 #import "Desirousmeter.h"

@@ -3,7 +3,7 @@
 //  LinKingSDK
 //
 //  Created by leon on 2020/10/29.
-//  Copyright © 2020 dml1630@163.com. All rights reserved.
+//  Copyright © 2020 . All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
