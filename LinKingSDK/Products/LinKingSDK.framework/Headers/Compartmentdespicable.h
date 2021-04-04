@@ -67,8 +67,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 广告加载成功
 - (void)adDidFinishLoading:(LKADTYPE)type;
-/// TopOn 广告加载失败
-- (void)topOnAdDidFailToLoadFail:(NSError * _Nullable)error;
+
 
 
 @end
