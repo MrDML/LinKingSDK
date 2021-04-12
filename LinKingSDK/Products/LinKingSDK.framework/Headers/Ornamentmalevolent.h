@@ -40,7 +40,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// 进入游戏
 - (void)Ragingwipe:(NSString *)serverId roleId:(NSString *)roleId roleName:(NSString *)roleName enterGame:(BOOL)enterGame complete:(void(^_Nullable)(NSError * _Nullable error))complete;
 
-
+/// 创建角色
+- (void)logRoleCreate:(NSString *)serverId roleId:(NSString *)roleId roleName:(NSString *)roleName;
 
 
 /// 广告打点

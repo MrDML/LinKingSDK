@@ -46,6 +46,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param roleName 角色名
 - (void)logLevel:(int)level serverId:(NSString *)serverId roleId:(NSString *)roleId roleName:(NSString *)roleName;
 
+/// 创建角色
+/// @param serverId 区服Id
+/// @param roleId 角色id
+/// @param roleName 角色名
+- (void)logRoleCreate:(NSString *)serverId roleId:(NSString *)roleId roleName:(NSString *)roleName;
+
 /// 无参自定义事件
 /// @param event 事件名
 - (void)logEvent:(NSString *)event;
