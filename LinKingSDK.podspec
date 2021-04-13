@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LinKingSDK'
-  s.version          = '0.1.87'
+  s.version          = '0.1.88'
   s.summary          = 'LinKingSDK Quick Integration Solution'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ TODO: LinKingSDK is Overseas SDK Quick Integration Solution.
 
   s.vendored_frameworks = "LinKingSDK/Products/LinKingSDK.framework"
   s.resources = "LinKingSDK/Assets/*.*"
-  s.dependency 'SDWebImage'
+  s.dependency 'SDWebImage', '>= 5.0.0'
   s.dependency 'IQKeyboardManager', '~> 6.5.5'
   s.dependency 'TPKeyboardAvoiding', '~> 1.3.4'
   s.dependency 'TZImagePickerController', '~> 3.5.1'
