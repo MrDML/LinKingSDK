@@ -1,0 +1,57 @@
+PODS:
+  - Ads-CN (3.4.4.3):
+    - Ads-CN/BUAdSDK (= 3.4.4.3)
+  - Ads-CN/BUAdSDK (3.4.4.3):
+    - Ads-CN/BUFoundation
+    - Ads-CN/Domestic
+  - Ads-CN/BUFoundation (3.4.4.3)
+  - Ads-CN/Domestic (3.4.4.3)
+  - AppsFlyerFramework (6.1.4):
+    - AppsFlyerFramework/Main (= 6.1.4)
+  - AppsFlyerFramework/Main (6.1.4)
+  - IQKeyboardManager (6.5.6)
+  - LinKingSDK (0.2.0):
+    - Ads-CN (~> 3.4.4.3)
+    - AppsFlyerFramework (~> 6.1.4)
+    - IQKeyboardManager (~> 6.5.5)
+    - SDWebImage (>= 5.0.0)
+    - Toast (~> 4.0.0)
+    - TPKeyboardAvoiding (~> 1.3.4)
+    - TZImagePickerController (~> 3.5.1)
+  - SDWebImage (5.11.0):
+    - SDWebImage/Core (= 5.11.0)
+  - SDWebImage/Core (5.11.0)
+  - Toast (4.0.0)
+  - TPKeyboardAvoiding (1.3.5)
+  - TZImagePickerController (3.5.9)
+
+DEPENDENCIES:
+  - LinKingSDK (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs:
+    - Ads-CN
+    - AppsFlyerFramework
+    - IQKeyboardManager
+    - SDWebImage
+    - Toast
+    - TPKeyboardAvoiding
+    - TZImagePickerController
+
+EXTERNAL SOURCES:
+  LinKingSDK:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Ads-CN: 57285da091f6a9035b78114c817f7e7fde8bff94
+  AppsFlyerFramework: ed1a754b74739bafbcb0d8235d6bc4f0ffe2e0ec
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
+  LinKingSDK: cdab83932017db84a06b999f76349347dad6ed72
+  SDWebImage: 7acbb57630ac7db4a495547fb73916ff3e432f6b
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TPKeyboardAvoiding: d55b3ea7b362540af8fcf36aa3ed2e87bf210cc6
+  TZImagePickerController: 07a2f834f4908689759a7e54f74e9a018e047cb6
+
+PODFILE CHECKSUM: 5b1b09181202cbceda8d1331fa4d8aceef46746e
+
+COCOAPODS: 1.10.1
