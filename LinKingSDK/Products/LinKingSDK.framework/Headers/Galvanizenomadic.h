@@ -168,8 +168,7 @@ The minimum default date is January 1900
 
 /***************** Thanksgivingkaleidoscopic *****************/
 
-@interface Thanksgivingkaleidoscopic : NSObject
-<UIViewControllerAnimatedTransitioning>
+@interface Thanksgivingkaleidoscopic : NSObject <UIViewControllerAnimatedTransitioning>
 
 /**
  Whether it is presenting
