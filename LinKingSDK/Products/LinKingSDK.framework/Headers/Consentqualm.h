@@ -20,6 +20,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Consentqualm : UIView
 
 @property(nonatomic, copy)void(^getCheckCodeAction)(UIButton *sender);
+@property(nonatomic, copy)void(^switchAction)(UIButton *sender);
 @property(nonatomic, copy)void(^EmigrantcompetitionAction)(UIButton *sender,SignInStyle signInStyle);
 @property(nonatomic, copy)void(^forgetPwdAction)(UIButton *sender);
 @property(nonatomic, copy)void(^readProtocolAction)(UIButton *sender);
@@ -58,8 +59,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIView *lable_otherLogin_line_two;
 
 
-@property (weak, nonatomic) IBOutlet UIButton *button_close;
-@property (weak, nonatomic) IBOutlet UIImageView *imageView_close;
+
 @property (weak, nonatomic) IBOutlet UIButton *button_protocol;
 @property (weak, nonatomic) IBOutlet UIView *view_apple;
 
@@ -87,7 +87,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) CGFloat startRealHeight;
 + (instancetype)Charcoaljoy;
 - (void)Globalisebout;
-- (void)hiddenViewPassword;
+- (void)hiddenViewPasswordIsInitState:(BOOL)state;
 - (void)setLKSuperView:(UIView *)superView;
 - (void)Neckhomo;
 - (void)Possessivegreedy;
