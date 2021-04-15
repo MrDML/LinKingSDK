@@ -29,7 +29,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, copy)void(^useAgreementCallBack)(BOOL isAgreement,UIButton *sender);
 @property(nonatomic, copy)void(^textFieldBenginEditCallBack)(CGFloat startRealHeight);
 @property (weak, nonatomic) IBOutlet UIView *view_switch;
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *layoutHeight;
 @property (weak, nonatomic) IBOutlet UIImageView *imageViewHeader;
 @property (weak, nonatomic) IBOutlet UITextField *textfield_iphone;
 @property (weak, nonatomic) IBOutlet UIButton *button_pwd;
@@ -53,6 +52,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIView *view_pwd_line_two;
 
 
+@property (weak, nonatomic) IBOutlet UIView *view_phone;
+@property (weak, nonatomic) IBOutlet UIView *view_phone_line_one;
+@property (weak, nonatomic) IBOutlet UIView *view_phone_line_two;
+@property (weak, nonatomic) IBOutlet UILabel *label_phone;
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *layout_phone_height;
 
 @property (weak, nonatomic) IBOutlet UILabel *label_otherLogin;
 @property (weak, nonatomic) IBOutlet UIView *label_otherLogin_line_one;
@@ -63,7 +67,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIButton *button_protocol;
 @property (weak, nonatomic) IBOutlet UIView *view_apple;
 
-@property (weak, nonatomic) IBOutlet UIView *view_phone;
+
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *layout_quick_login_top;
 
 
