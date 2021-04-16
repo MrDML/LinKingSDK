@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LinKingSDK'
-  s.version          = '0.2.6'
+  s.version          = '0.2.7'
   s.summary          = 'LinKingSDK Quick Integration Solution'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,7 @@ TODO: LinKingSDK is Overseas SDK Quick Integration Solution.
   s.dependency 'TZImagePickerController', '~> 3.5.1'
   s.dependency 'Toast', '~> 4.0.0'
   s.dependency 'AppsFlyerFramework', '~> 6.1.4'
-  s.dependency 'Ads-CN', '~> 3.4.4.3'
+  s.dependency 'Ads-CN', '~> 3.5.1.2'
   s.xcconfig = {
       'VALID_ARCHS' =>  'arm64 x86_64 armv7',
   }

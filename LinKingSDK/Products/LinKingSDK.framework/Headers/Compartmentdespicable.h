@@ -24,6 +24,11 @@ typedef NS_ENUM(NSInteger, LKADTYPE) {
     ADTYPE_BANNER = 2,
 };
 
+typedef NS_ENUM(NSInteger,LKPAYUSERTYPE) {
+    LK_UNDEFINED = 0,  // 未定义
+    LK_PAY = 1,        // 付费
+    LK_NOPAY = 2       // 非付费
+};
 NS_ASSUME_NONNULL_BEGIN
 @protocol CompartmentdespicableDelegate <NSObject>
 
@@ -82,6 +87,13 @@ NS_ASSUME_NONNULL_BEGIN
 /// 注册广告
 - (void)Heightenrelapse;
 
+
+/// 初始化广告
+/// @param type 广告类型
+/// @param viewController 控制器
+/// @param superView 视图
+- (void)initAD:(LKADTYPE)type rootViewController:(UIViewController * _Nonnull)viewController superView:(UIView * _Nullable)superView;
+
 /// 展示横屏
 - (void)showBanner;
 /// 展现插屏
@@ -89,11 +101,17 @@ NS_ASSUME_NONNULL_BEGIN
 /// 展示激励视频广告
 - (void)showRewardVideoAd;
 
-/// 初始化广告
-/// @param type 广告类型
-/// @param viewController 控制器
-/// @param superView 视图
-- (void)initAD:(LKADTYPE)type rootViewController:(UIViewController * _Nonnull)viewController superView:(UIView * _Nullable)superView;
+
+/// 展示横屏
+/// @param type LK_UNDEFINED:未定义 LK_ALREADYPAY:已经付费 LK_NOPAY:非付费
+- (void)showBannerPayuser:(LKPAYUSERTYPE)type;
+/// 展现插屏
+/// @param type LK_UNDEFINED:未定义 LK_ALREADYPAY:已经付费 LK_NOPAY:非付费
+- (void)showInterstitialAdPayuser:(LKPAYUSERTYPE)type;
+/// 展示激励视频广告
+/// @param type LK_UNDEFINED:未定义 LK_ALREADYPAY:已经付费 LK_NOPAY:非付费
+- (void)showRewardVideoAdPayuser:(LKPAYUSERTYPE)type;
+
 
 @end
 
