@@ -11,6 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Veracitysurroundings : NSObject
 + (NSString *)baseURL;
++ (NSString *)baseCheckTokenURL;
 + (NSDictionary *)defaultParames;
 + (NSDictionary *)defaultParamesSimple;
 + (NSError *)Carvingwince:(NSString *)msg;
