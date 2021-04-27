@@ -23,7 +23,7 @@ typedef enum {
     INAPPServiceFail = 8,        // 服务校验失败
 }INAPPPurchType;
 NS_ASSUME_NONNULL_BEGIN
-typedef void (^_Nonnull INAPPPurchCompletionHandle)(INAPPPurchType type,NSError * _Nullable  data);
+typedef void (^_Nonnull INAPPPurchCompletionHandle)(INAPPPurchType type,NSError * _Nullable  error);
 @interface Urbanisationnegotiable : NSObject
 @property (nonatomic, assign)PAYTYPE payType;
 
@@ -38,6 +38,12 @@ typedef void (^_Nonnull INAPPPurchCompletionHandle)(INAPPPurchType type,NSError 
 //- (void)Heroinegrocery:(UIViewController *)viewController parameters:(NSDictionary *)parames complete:(void(^)(NSError *error, BOOL success))complete;
 - (void)Heroinegrocery:(UIViewController *)viewController parameters:(NSDictionary *)parames complete:(void(^)(NSDictionary * _Nullable result,NSError * _Nullable error ))complete;
 
+
+/// 选择支付类型
+/// @param viewController 根控制器
+/// @param productId 商品Id
+/// @param parames 支付参数
+- (void)HeroinegroceryNew:(UIViewController *)viewController productId:(NSString *)productId parameters:(NSDictionary *)parames complete:(INAPPPurchCompletionHandle)complete;
 
 /// 拉取所有商品信息(适用于苹果内购)
 /// @param complete products 品集合
