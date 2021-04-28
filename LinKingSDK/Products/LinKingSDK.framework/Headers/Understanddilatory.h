@@ -12,10 +12,6 @@
 #define Understanddilatory_h
 
 
-#define SDKCONFKEY @"SDKCONF"
-#define SYSTEMSDKKEY  @"SYSTEMSDK"
-#define Murmurinconceivable    @"USER"
-
 #define kScreen_LE_Width [UIScreen mainScreen].bounds.size.width
 #define kScreen_LE_Height [UIScreen mainScreen].bounds.size.height
 #define kScreen_LE_Size [UIScreen mainScreen].bounds.size

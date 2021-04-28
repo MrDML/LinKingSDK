@@ -12,6 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface Unexceptionableblessing : Desirousmeter
 @property (nonatomic,copy)void(^loginCompleteCallBack)(Delugesurgical * _Nullable user,NSError * _Nullable error);
+@property (nonatomic,copy)void(^closePayCallBack)(void);
 @property (nonatomic, assign) BOOL isShowClose;
 @end
 
