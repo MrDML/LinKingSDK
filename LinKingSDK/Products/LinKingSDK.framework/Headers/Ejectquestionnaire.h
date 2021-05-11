@@ -21,6 +21,11 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) UIViewController *viewController;
 @property (nonatomic, weak) id <EjectquestionnaireDelegate>delegate;
 @property (nonatomic,copy)void(^VicaraffableCompleteCallBack)(Delugesurgical * _Nullable user,NSError *_Nullable error);
+/// 实名认证回调
+@property (nonatomic,copy)void(^realNameCompleteCallBack)(BOOL isSuccess,Delugesurgical * _Nullable user,NSError *_Nullable error);
+/// 是否已经实名
+- (BOOL)isRealName;
+
 /// Dashboard授权面板
 /// @param viewController 根控制器
 /// @param complete 完成登录回调
