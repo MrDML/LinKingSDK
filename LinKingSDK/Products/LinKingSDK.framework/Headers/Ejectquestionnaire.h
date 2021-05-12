@@ -25,6 +25,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic,copy)void(^realNameCompleteCallBack)(BOOL isSuccess,Delugesurgical * _Nullable user,NSError *_Nullable error);
 /// 是否已经实名
 - (BOOL)isRealName;
+/// 防沉迷弹框
+- (void)showRealNameViewRootViewController:(UIViewController *)viewController complete:(void(^)(BOOL isCancel,NSError * _Nullable error))complete;
 
 /// Dashboard授权面板
 /// @param viewController 根控制器
