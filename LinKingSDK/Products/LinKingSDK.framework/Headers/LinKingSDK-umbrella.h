@@ -29,6 +29,7 @@
 #import "LinKingSDK.h"
 #import "Congenitalstagy.h"
 #import "Delugesurgical.h"
+#import "LKUserEntity.h"
 #import "Rabiddreary.h"
 #import "Cleaveglacier.h"
 #import "Databaseear.h"

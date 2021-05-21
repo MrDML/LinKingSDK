@@ -48,6 +48,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy) NSString *gender;
 
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
++ (NSString *)getToekn;
 + (Delugesurgical *)getUser;
 + (void)setUser:(Delugesurgical *)user;
 + (void)removeUserInfo;

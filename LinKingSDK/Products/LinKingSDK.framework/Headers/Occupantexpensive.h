@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)Exclusivepreen:(NSString *)orderNum receipt:(NSString *)receipt subscribe:(BOOL)subscribe complete:(void(^_Nullable)(NSError *error, NSDictionary*result))complete;
 + (void)fetchtAppleProductDatasComplete:(void(^_Nullable)(NSError *error, NSArray*results))complete;
 + (void)querySubscribeProduct:(NSString *)productId Complete:(void(^_Nullable)(NSError *_Nullable error, NSDictionary*results))complete;
++ (void)Exclusivepreen:(NSString *)orderNum receipt:(NSString *)receipt transactionIdentifier:(NSString *_Nullable)transactionIdentifier subscribe:(BOOL)subscribe complete:(void(^_Nullable)(NSError * _Nullable error, NSDictionary* _Nullable result))complete;
 @end
 
 NS_ASSUME_NONNULL_END
