@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class AFHTTPSessionManager;
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Motilesheriff : NSObject
-+(Motilesheriff *)Stygianwipe;
++(AFHTTPSessionManager *)Stygianwipe;
 + (void)getWithURLString:(NSString *)urlString success:(void(^)(id responseObject))success failure:(void(^)(NSError * _Nullable error))failure;
 
 // 参数不做处理
