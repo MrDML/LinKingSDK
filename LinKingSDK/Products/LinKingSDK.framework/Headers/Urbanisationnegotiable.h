@@ -24,6 +24,7 @@ typedef enum {
     INAPPReceiptInvalid = 9, // 支付票据无效
     INAPPOrderNotExist = 10, // 支付订单不存在
     INAPPOrderClosed = 11, // 支付订单已结束
+    INAPPAbnormalOrder = 12, // 异常订单
 }INAPPPurchType;
 NS_ASSUME_NONNULL_BEGIN
 typedef void (^_Nonnull INAPPPurchCompletionHandle)(INAPPPurchType type,NSError * _Nullable  error);
