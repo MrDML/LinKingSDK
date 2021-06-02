@@ -1,19 +1,15 @@
-//
-//  LinKingSDK.h
-//  LinKingSDK
-//
-//  Created by MrDML on 2020/8/1.
-//  Copyright © 2020 . All rights reserved.
-//
+
 #import <Foundation/Foundation.h>
-#import <LinKingSDK/Boilercountry.h>
-#import <LinKingSDK/Ejectquestionnaire.h>
-#import <LinKingSDK/Urbanisationnegotiable.h>
-#import <LinKingSDK/Voguepremier.h>
-#import <LinKingSDK/Compartmentdespicable.h>
-#import <LinKingSDK/Delugesurgical.h>
-#import <LinKingSDK/Personneldoomed.h>
-#import <LinKingSDK/Skimpcoupon.h>
-#import <LinKingSDK/Barnfondle.h>
-#import <LinKingSDK/Congenitalstagy.h>
-#import <LinKingSDK/Misleadinginsurgent.h>
+#import <LinKingSDK/LKSDKManager.h>
+#import <LinKingSDK/LKOauthManager.h>
+#import <LinKingSDK/LKPayManager.h>
+#import <LinKingSDK/LKPointManager.h>
+#import <LinKingSDK/LKAdManager.h>
+#import <LinKingSDK/LKUser.h>
+#import <LinKingSDK/LKAFManager.h>
+#import <LinKingSDK/LKTitokExpressManager.h>
+#import <LinKingSDK/LKGoods.h>
+#import <LinKingSDK/LKTopOnManager.h>
+#import <LinKingSDK/LKLog.h>
+#import <LinKingSDK/LKMQTTLog.h>
+#import <LinKingSDK/LKAdFace.h>
