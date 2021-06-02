@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LinKingSDK'
-  s.version          = '0.2.29'
+  s.version          = '0.2.30'
   s.summary          = 'LinKingSDK Quick Integration Solution'
 
 # This description is used to generate tags and improve search results.
@@ -40,8 +40,30 @@ TODO: LinKingSDK is Overseas SDK Quick Integration Solution.
   s.dependency 'TZImagePickerController', '~> 3.5.1'
   s.dependency 'Toast', '~> 4.0.0'
   s.dependency 'Beta-AppsFlyerFramework', '~> 6.0.2.174'
-  s.dependency 'Ads-CN', '~> 3.6.1.3'
   s.dependency 'AFNetworking', '~> 4.0.1'
+  
+  
+  # TOpOn
+  s.dependency 'AnyThinkiOS','5.7.44'
+  # 穿山甲
+  s.dependency 'Ads-CN','3.6.1.1'
+  # MintegralAdSDK
+  s.dependency 'MintegralAdSDK' ,'6.9.1'
+  # 优良汇
+  s.dependency 'GDTMobSDK', '4.12.61'
+  
+  s.dependency 'AnyThinkiOS/AnyThinkPangleAdapter','5.7.44'
+  s.dependency 'AnyThinkiOS/AnyThinkMintegralAdapter','5.7.44'
+  s.dependency 'MintegralAdSDK/RewardVideoAd','6.9.1'
+  s.dependency 'MintegralAdSDK/BidRewardVideoAd','6.9.1'
+  s.dependency 'MintegralAdSDK/BidInterstitialVideoAd','6.9.1'
+  s.dependency 'MintegralAdSDK/InterstitialVideoAd','6.9.1'
+  s.dependency 'MintegralAdSDK/InterstitialAd','6.9.1'
+  s.dependency 'MintegralAdSDK/BannerAd' ,'6.9.1'
+  s.dependency 'MintegralAdSDK/BidBannerAd','6.9.1'
+  s.dependency 'MintegralAdSDK/SplashAd','6.9.1'
+  s.dependency 'MintegralAdSDK/NativeAdvancedAd','6.9.1'
+  s.dependency 'AnyThinkiOS/AnyThinkGDTAdapter','5.7.44'
   s.xcconfig = {
       'VALID_ARCHS' =>  'arm64 x86_64 armv7',
   }
