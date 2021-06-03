@@ -75,11 +75,12 @@ typedef NS_ENUM(NSUInteger,LKLogLevel){
 };
 
 
-#define LKLogVerbose if ( lkLogLevel & LKLogFlagVerbose ) NSLog
-#define LKLogDebug if ( lkLogLevel & LKLogFlagDebug ) NSLog
-#define LKLogWarn if ( lkLogLevel & LKLogFlagWaring ) NSLog
-#define LKLogInfo if ( lkLogLevel & LKLogFlagInfo ) NSLog
-#define LKLogError if ( lkLogLevel & LKLogFlagError ) NSLog
+#define LKLogVerbose(fmt, ...) if ( lkLogLevel & LKLogFlagVerbose ) NSLog((@"[LinKingSDK] " fmt), ##__VA_ARGS__)
+#define LKLogDebug(fmt, ...) if ( lkLogLevel & LKLogFlagDebug ) NSLog((@"[LinKingSDK] " fmt), ##__VA_ARGS__)
+#define LKLogWarn(fmt, ...) if ( lkLogLevel & LKLogFlagWaring ) NSLog((@"[LinKingSDK] " fmt), ##__VA_ARGS__)
+#define LKLogInfo(fmt, ...) if ( lkLogLevel & LKLogFlagInfo ) NSLog((@"[LinKingSDK] " fmt), ##__VA_ARGS__)
+#define LKLogError(fmt, ...) if ( lkLogLevel & LKLogFlagError ) NSLog((@"[LinKingSDK] " fmt), ##__VA_ARGS__)
+
 
 
 #endif 

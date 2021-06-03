@@ -56,8 +56,6 @@ typedef NS_ENUM(NSInteger,LK_PAYUSERTYPE) {
 - (void)rewardAdWinReward;
 
 
-@optional
-
 
 - (void)interstitialAdDidLoadFail:(NSError * _Nullable)error;
 
