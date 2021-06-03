@@ -75,24 +75,11 @@ typedef NS_ENUM(NSUInteger,LKLogLevel){
 };
 
 
-#ifdef DEBUG
-
 #define LKLogVerbose if ( lkLogLevel & LKLogFlagVerbose ) NSLog
 #define LKLogDebug if ( lkLogLevel & LKLogFlagDebug ) NSLog
 #define LKLogWarn if ( lkLogLevel & LKLogFlagWaring ) NSLog
 #define LKLogInfo if ( lkLogLevel & LKLogFlagInfo ) NSLog
 #define LKLogError if ( lkLogLevel & LKLogFlagError ) NSLog
-
-
-#else
-
-#define LKLogVerbose(...)
-#define LKLogDebug(...)
-#define LKLogWarn(...)
-#define LKLogInfo(...)
-#define LKLogError(...)
-
-#endif
 
 
 #endif 
