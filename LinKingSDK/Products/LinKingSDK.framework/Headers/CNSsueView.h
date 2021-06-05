@@ -9,6 +9,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (weak, nonatomic) IBOutlet UIButton *button_checkBox;
 @property (weak, nonatomic) IBOutlet UIButton *button_ok;
 @property (weak, nonatomic) IBOutlet UILabel *label_title;
+@property (weak, nonatomic) IBOutlet UILabel *label_agree;
 
 @property (nonatomic,copy)void(^sureCallBack)(BOOL isSelect);
 + (instancetype)instanceUseAgreementView;
