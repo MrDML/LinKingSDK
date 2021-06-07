@@ -11,11 +11,12 @@ typedef enum {
    PurchNotArrow = 5,      
    PurchNoGoods = 6,       
    PurchRestoredGoods = 7, 
-   PurchServiceFail = 8, 
+   PurchServiceFail = 8,
    PurchReceiptInvalid = 9, 
    PurchOrderNotExist = 10, 
    PurchOrderClosed = 11, 
-   PurchOrderNoComplete = 12, 
+   PurchOrderNoComplete = 12,
+   PurchOrderFail = 13,
     
 }PurchType;
 NS_ASSUME_NONNULL_BEGIN

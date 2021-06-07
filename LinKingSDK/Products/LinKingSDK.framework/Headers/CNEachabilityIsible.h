@@ -18,7 +18,8 @@ typedef enum {
     INAPPReceiptInvalid = 9, 
     INAPPOrderNotExist = 10, 
     INAPPOrderClosed = 11, 
-    INAPPOrderNoComplete = 12, 
+    INAPPOrderNoComplete = 12,
+    INAPPOrderFail = 13,
 }INAPPPurchType;
 NS_ASSUME_NONNULL_BEGIN
 typedef void (^_Nonnull INAPPPurchCompletionHandle)(INAPPPurchType type,NSError * _Nullable  error);
