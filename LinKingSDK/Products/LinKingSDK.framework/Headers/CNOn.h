@@ -16,7 +16,8 @@ typedef enum {
    PurchOrderNotExist = 10, 
    PurchOrderClosed = 11, 
    PurchOrderNoComplete = 12,
-   PurchOrderFail = 13,
+   PurchAbnormalOrder = 13,
+   PurchOrderFail = 14,
     
 }PurchType;
 NS_ASSUME_NONNULL_BEGIN
