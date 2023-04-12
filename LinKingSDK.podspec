@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LinKingSDK'
-  s.version          = '0.2.64'
+  s.version          = '0.2.65'
   s.summary          = 'LinKingSDK Quick Integration Solution'
 
 # This description is used to generate tags and improve search results.
@@ -45,7 +45,8 @@ TODO: LinKingSDK is Overseas SDK Quick Integration Solution.
   # TOpOn
   s.dependency 'AnyThinkiOS','5.7.44'
   # 穿山甲
-  s.dependency 'Ads-CN','3.6.1.1'
+  #s.dependency 'Ads-CN','3.6.1.1'
+  s.dependency 'Ads-CN','4.8.1.0'
   # MintegralAdSDK
   s.dependency 'MintegralAdSDK' ,'6.9.1'
   # 优良汇
