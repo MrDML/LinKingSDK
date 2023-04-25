@@ -27,3 +27,6 @@ dml1630@163.com, dml1630@163.com
 ## License
 
 LinKingSDK is available under the MIT license. See the LICENSE file for more info.
+
+pod trunk register 'tech@sh-lingjing.com' 'cailin' --description='mac pro'
+
