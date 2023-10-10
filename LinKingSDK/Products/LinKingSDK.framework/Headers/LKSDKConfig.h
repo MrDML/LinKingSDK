@@ -23,7 +23,14 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSDictionary *ad_config_ios;
 @property (nonatomic, strong) NSDictionary *share_info;
 @property (nonatomic, strong) NSDictionary *updateGame;
-@property (nonatomic, copy)   NSString *wx_service_num; 
+@property (nonatomic, copy)   NSString *wx_service_num;
+/// 是否开启web第三方支付
+@property (nonatomic, strong) NSNumber *thirdOpenPay;
+/// 累计充值金额
+@property (nonatomic, strong) NSNumber *rechargePay;
+/// web 支付Url
+@property (nonatomic, strong) NSString *webPayBaseUrl;
+
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 + (LKSDKConfig *)getSDKConfig;
 + (void)setSDKConfig:(LKSDKConfig *)config;

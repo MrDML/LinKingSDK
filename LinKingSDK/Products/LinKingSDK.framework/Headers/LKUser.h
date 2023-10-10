@@ -44,6 +44,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 认证状态 0 未认证  1 认证中 2 已认证
 @property (nonatomic, copy) NSString *real_verify;
 
+/// 用户累计充值金额
+@property (nonatomic, copy) NSString *payAmount;
+
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 + (NSString *)getToekn;
 + (LKUser *)getUser;
